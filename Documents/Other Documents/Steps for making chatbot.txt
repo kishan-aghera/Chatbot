@@ -1,4 +1,0 @@
-1. Scrap college's website and store the data in the database. (Web Scraping and dumping data into database)
-2. Take input from the user and extract relevant keywords. (Voice or text and then NLP)
-3. Find relevant response to the input. (Search in database)
-4. Output response (Voice or text)
