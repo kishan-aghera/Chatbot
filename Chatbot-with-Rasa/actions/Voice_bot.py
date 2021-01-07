@@ -4,9 +4,11 @@
 ## rasa run actions
 
 import requests
-import SpeechRecognition as sr  # import the library
-import subprocess
+import speech_recognition as sr  # import the library
+# import subprocess
 from gtts import gTTS
+from playsound import playsound
+import os
 
 # sender = input("What is your name?\n")
 
@@ -24,8 +26,9 @@ myobj = gTTS(text=bot_message)
 myobj.save("welcome.mp3")
 print('saved')
 # Playing the converted file
-subprocess.call(['mpg321', "welcome.mp3", '--play-and-exit'])
-
+# subprocess.call(['vlc', "welcome.mp3", '--play-and-exit'])
+playsound('welcome.mp3')
+os.remove('welcome.mp3')
 while bot_message != "Bye" or bot_message != 'thanks':
 
     r = sr.Recognizer()  # initialize recognizer
@@ -53,4 +56,6 @@ while bot_message != "Bye" or bot_message != 'thanks':
     myobj.save("welcome.mp3")
     print('saved')
     # Playing the converted file
-    subprocess.call(['mpg321', "welcome.mp3", '--play-and-exit'])
+    # subprocess.call(['vlc', "welcome.mp3", '--play-and-exit'])
+    playsound('welcome.mp3')
+    os.remove('welcome.mp3')
