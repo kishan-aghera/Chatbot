@@ -9,11 +9,14 @@ import speech_recognition as sr  # import the library
 from gtts import gTTS
 from playsound import playsound
 import os
-
+from translate import Translator
 # sender = input("What is your name?\n")
 
 bot_message = ""
 message = ""
+# To enable translation, uncomment the below 2 lines
+# translator = Translator(to_lang='hi')
+# translation = translator.translate("hello")
 
 r = requests.post('http://localhost:5002/webhooks/rest/webhook', json={"message": "Hello"})
 
@@ -23,12 +26,14 @@ for i in r.json():
     print(f"{bot_message}")
 
 myobj = gTTS(text=bot_message)
-myobj.save("welcome.mp3")
+# To enable translation, uncomment below line and comment the above line
+# myobj = gTTS(text=translator.translate(bot_message),lang='hi')
+myobj.save("speech.mp3")
 print('saved')
 # Playing the converted file
 # subprocess.call(['vlc', "welcome.mp3", '--play-and-exit'])
-playsound('welcome.mp3')
-os.remove('welcome.mp3')
+playsound('speech.mp3')
+os.remove('speech.mp3')
 while bot_message != "Bye" or bot_message != 'thanks':
 
     r = sr.Recognizer()  # initialize recognizer
@@ -38,6 +43,9 @@ while bot_message != "Bye" or bot_message != 'thanks':
         try:
             message = r.recognize_google(audio)  # use recognizer to convert our audio into text part.
             print("You said : {}".format(message))
+            # To enable translation, uncomment below 2 lines and comment the above line
+            # translator = Translator(to_lang='en')
+            # print("You said : {}".format(translator.translate(message)))
 
         except:
             print("Sorry could not recognize your voice")  # In case of voice not recognized  clearly
@@ -53,9 +61,12 @@ while bot_message != "Bye" or bot_message != 'thanks':
         print(f"{bot_message}")
 
     myobj = gTTS(text=bot_message)
-    myobj.save("welcome.mp3")
+    # To enable translation, uncomment below 2 lines and comment the above line
+    # translator = Translator(to_lang='hi')
+    # myobj = gTTS(text=translator.translate(bot_message))
+    myobj.save("speech.mp3")
     print('saved')
     # Playing the converted file
     # subprocess.call(['vlc', "welcome.mp3", '--play-and-exit'])
-    playsound('welcome.mp3')
-    os.remove('welcome.mp3')
+    playsound('speech.mp3')
+    os.remove('speech.mp3')
