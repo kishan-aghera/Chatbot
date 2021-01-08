@@ -41,3 +41,13 @@ rules:
   steps:
   - intent: peo_computer_department
   - action: utter_peo_computer
+
+- rule: HOD of Computer in Gujarati
+  steps:
+  - intent: hod_ce_gu
+  - action: utter_hod_ce_gu
+
+- rule: HOD of Computer in Hindi
+  steps:
+  - intent: hod_ce_hi
+  - action: utter_hod_ce_hi

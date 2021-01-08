@@ -14,6 +14,8 @@ intents:
   - number_of_subjects_computer
   - subjects_sem_7
   - peo_computer_department
+  - hod_ce_gu
+  - hod_ce_hi
 
 responses:
   utter_greet:
@@ -56,6 +58,12 @@ responses:
              Provide requisite skills to pursue entrepreneurship, higher studies, research and development and imbibe high degree of professionalism in the fields of computing.
              Embrace life-long learning and remain continuously employable.
              Work and excel in a highly competence supportive, multicultural and professional environment which abiding to the legal and ethical responsibilities."
+
+  utter_hod_ce_gu:
+  - text: "Computer department na HOD nu naam chhe Professor Mansukh Savaliya Sir.કમ્પ્યુટર ડિપાર્ટમેંટ ના HOD નું નામ મનસુખ સાવલીયા છે."
+
+  utter_hod_ce_hi:
+  - text: "Computer department ke HOD ka naam he Professor Mansukh Savaliya Sir."
 
 session_config:
   session_expiration_time: 60

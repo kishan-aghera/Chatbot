@@ -132,3 +132,14 @@ nlu:
     - peos of computer department
     - peo computer department
     - peo computer
+
+- intent: hod_ce_gu
+  examples: |
+    - computer department na hod nu name su chhe
+    - computer department na hod kon chhe
+    - computer na hod kon
+
+- intent: hod_ce_hi
+  examples: |
+    - computer department k hod ka naam kya he
+    - computer k hod ka naam batao
