@@ -1,7 +1,7 @@
-## Run this command in terminal  before executing this program
-## rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml
-## and also run this in seperate terminal
-## rasa run actions
+# Run this command in terminal  before executing this program
+# rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml
+# and also run this in separate terminal
+# rasa run actions
 
 import requests
 import speech_recognition as sr  # import the library
@@ -9,7 +9,8 @@ import speech_recognition as sr  # import the library
 from gtts import gTTS
 from playsound import playsound
 import os
-from translate import Translator
+# from translate import Translator
+
 # sender = input("What is your name?\n")
 
 bot_message = ""
