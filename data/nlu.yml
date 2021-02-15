@@ -52,6 +52,15 @@ nlu:
     - amazing
     - feeling like a king
     - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
 - intent: name_correction_marksheet_en
   examples: |
     - How do I get my name corrected in the mark sheet?
@@ -89,3 +98,24 @@ nlu:
 - intent: get_scholarship_en
   examples: |
     - How to get scholarship?
+- intent: bot_challenge
+  examples: |
+    - am I talking to a human?
+    - am I talking to a bot?
+    - are you a human?
+    - are you a bot?
+- intent: mood_unhappy
+  examples: |
+    - so sad
+    - extremly sad
+    - not very good
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
