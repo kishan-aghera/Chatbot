@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -30,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -39,7 +36,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -49,7 +45,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -57,36 +52,40 @@ nlu:
     - amazing
     - feeling like a king
     - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
+- intent: name_correction_marksheet_en
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
+    - How do I get my name corrected in the mark sheet?
+    - What is the procedure to get my name corrected in the mark sheet?
+    - How to correct my name in the mark sheet?
+    - How to change name in the mark sheet?
+- intent: paid_fees_in_wrong_category_en
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - I have paid fees in the wrong category. What to do?
+- intent: refund_fees_en
+  examples: |
+    - How do I process the refund of fees?
+- intent: paid_less_fees_than_mentioned_en
+  examples: |
+    - I have paid lesser fees than mentioned, what to do now?
+- intent: entered_incorrect_information_while_paying_fees_en
+  examples: |
+    - I have entered incorrect enrollment no. while paying the fees, what to do now?
+    - I have entered incorrect branch while paying the fees, what to do now?
+- intent: bonafide_apply_en
+  examples: |
+    - How do I apply for a bonafide?
+- intent: pay_fee_online_process_en
+  examples: |
+    - How to pay the fees online?
+- intent: get_duplicate_marksheet_process_en
+  examples: |
+    - What to do for the duplicate mark sheet?
+- intent: admission_cancel_en
+  examples: |
+    - Cancellation of admission
+- intent: detention_after_process_en
+  examples: |
+    - The process for resuming the study after the detention period is over
+- intent: get_scholarship_en
+  examples: |
+    - How to get scholarship?
