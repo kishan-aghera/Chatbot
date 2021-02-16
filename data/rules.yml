@@ -1,13 +1,46 @@
 version: "2.0"
-
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
+- rule: Admission Cancel in English
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- rule: Say 'I am a bot' anytime the user challenges
+  - intent: admission_cancel_en
+  - action: utter_admission_cancel_en
+- rule: Bonafide Apply in English
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: bonafide_apply_en
+  - action: utter_bonafide_apply_en
+- rule: Detention after process in English
+  steps:
+  - intent: detention_after_process_en
+  - action: utter_detention_after_process_en
+- rule: Entered incorrect information while paying fees in English
+  steps:
+  - intent: entered_incorrect_information_while_paying_fees_en
+  - action: utter_entered_incorrect_information_while_paying_fees_en
+- rule: Get duplicate marksheet process in English
+  steps:
+  - intent: get_duplicate_marksheet_process_en
+  - action: utter_get_duplicate_marksheet_process_en
+- rule: Get Scholarship in English
+  steps:
+  - intent: get_scholarship_en
+  - action: utter_get_scholarship_en
+- rule: Name correction in marksheet in English
+  steps:
+  - intent: name_correction_marksheet_en
+  - action: utter_name_correction_marksheet_en
+- rule: Paid fees in wrong category in English
+  steps:
+  - intent: paid_fees_in_wrong_category_en
+  - action: utter_paid_fees_in_wrong_category_en
+- rule: Paid less fees than mentioned in English
+  steps:
+  - intent: paid_less_fees_than_mentioned_en
+  - action: utter_paid_less_fees_than_mentioned_en
+- rule: Pay fee online process in English
+  steps:
+  - intent: pay_fee_online_process_en
+  - action: utter_pay_fee_online_process_en
+- rule: Refund Fees in English
+  steps:
+  - intent: refund_fees_en
+  - action: utter_refund_fees_en

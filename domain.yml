@@ -5,36 +5,53 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- greet:
+- name_correction_marksheet_en:
     use_entities: true
-- goodbye:
+- detention_after_process_en:
     use_entities: true
-- affirm:
+- pay_fee_online_process_en:
     use_entities: true
-- deny:
+- paid_less_fees_than_mentioned_en:
     use_entities: true
-- mood_great:
+- entered_incorrect_information_while_paying_fees_en:
     use_entities: true
-- mood_unhappy:
+- get_duplicate_marksheet_process_en:
     use_entities: true
-- bot_challenge:
+- bonafide_apply_en:
+    use_entities: true
+- admission_cancel_en:
+    use_entities: true
+- refund_fees_en:
+    use_entities: true
+- paid_fees_in_wrong_category_en:
+    use_entities: true
+- get_scholarship_en:
     use_entities: true
 entities: []
 slots: {}
 responses:
-  utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_goodbye:
-  - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  utter_get_scholarship_en:
+  - text: Answer to get a scholarship in English.
+  utter_admission_cancel_en:
+  - text: Answer to admission cancel in English.
+  utter_bonafide_apply_en:
+  - text: Answer to how to apply for a bonafide certificate in English.
+  utter_detention_after_process_en:
+  - text: Answer to process after detention in English.
+  utter_entered_incorrect_information_while_paying_fees_en:
+  - text: Answer to entered incorrect information while paying fees in English.
+  utter_get_duplicate_marksheet_process_en:
+  - text: Answer to process for getting duplicating marksheet in English.
+  utter_name_correction_marksheet_en:
+  - text: Answer to name correction in marksheet in English.
+  utter_paid_fees_in_wrong_category_en:
+  - text: Answer to paid fees in wrong category in English.
+  utter_paid_less_fees_than_mentioned_en:
+  - text: Answer to paid less fees than mentioned in English.
+  utter_pay_fee_online_process_en:
+  - text: Answer to process for paying fees online in English.
+  utter_refund_fees_en:
+  - text: Answer to refund fees in English.
 actions: []
 forms: {}
 e2e_actions: []
