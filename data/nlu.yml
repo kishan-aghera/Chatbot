@@ -1,7 +1,5 @@
 version: "2.0"
 nlu:
-
-
 - intent: name_correction_marksheet_en
   examples: |
     - How do I get my name corrected in the mark sheet?
@@ -39,3 +37,10 @@ nlu:
 - intent: get_scholarship_en
   examples: |
     - How to get scholarship?
+    - I want a scholarship, how to get it?
+- intent: get_scholarship_gu
+  examples: |
+    - Scholarship kai rite male?
+- intent: get_scholarship_hi
+  examples: |
+    - Scholarship kese milti he?

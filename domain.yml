@@ -27,6 +27,10 @@ intents:
     use_entities: true
 - get_scholarship_en:
     use_entities: true
+- get_scholarship_gu:
+    use_entities: true
+- get_scholarship_hi:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -52,6 +56,10 @@ responses:
   - text: Answer to process for paying fees online in English.
   utter_refund_fees_en:
   - text: Answer to refund fees in English.
+  utter_get_scholarship_hi:
+  - text: Scholarship kese mile uska jawab.
+  utter_get_scholarship_gu:
+  - text: Scholarship kai rite male eno jawab.
 actions: []
 forms: {}
 e2e_actions: []

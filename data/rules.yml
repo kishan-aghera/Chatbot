@@ -44,3 +44,11 @@ rules:
   steps:
   - intent: refund_fees_en
   - action: utter_refund_fees_en
+- rule: Get Scholarship in Gujarati
+  steps:
+  - intent: get_scholarship_gu
+  - action: utter_get_scholarship_gu
+- rule: Get Scholarship in Hindi
+  steps:
+  - intent: get_scholarship_hi
+  - action: utter_get_scholarship_hi
