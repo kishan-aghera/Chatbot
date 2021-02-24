@@ -6,12 +6,15 @@ nlu:
     - What is the procedure to get my name corrected in the mark sheet?
     - How to correct my name in the mark sheet?
     - How to change name in the mark sheet?
+    - How can I correct my name in marksheet?
 - intent: paid_fees_in_wrong_category_en
   examples: |
     - I have paid fees in the wrong category. What to do?
+    - I have paid fees in wrong category then how to refund the fees?
 - intent: refund_fees_en
   examples: |
     - How do I process the refund of fees?
+    - I have paid fees in wrong section then how to refund those fees?
 - intent: paid_less_fees_than_mentioned_en
   examples: |
     - I have paid lesser fees than mentioned, what to do now?
@@ -38,9 +41,16 @@ nlu:
   examples: |
     - How to get scholarship?
     - I want a scholarship, how to get it?
+    - How can I get my scholarship?
 - intent: get_scholarship_gu
   examples: |
     - Scholarship kai rite male?
+    - Scholarship mate kai rite apply karu?
+    - Mare scholarship joie chhe, to kai rite malse?
+    - Mare schoalrhsip joie chhe, to kai rite malse?
+    - Scholarship melavani rit su?
 - intent: get_scholarship_hi
   examples: |
     - Scholarship kese milti he?
+    - Muje scholarship chahie to kese apply karna hain?
+    - Muje scholarship chaie, kese mil sakti he?
