@@ -49,8 +49,10 @@ nlu:
     - Mare scholarship joie chhe, to kai rite malse?
     - Mare schoalrhsip joie chhe, to kai rite malse?
     - Scholarship melavani rit su?
+    - scholarship joie chhe, to kai rite male?
 - intent: get_scholarship_hi
   examples: |
     - Scholarship kese milti he?
     - Muje scholarship chahie to kese apply karna hain?
     - Muje scholarship chaie, kese mil sakti he?
+    - muje scholarship chaaie, to kese mil sakti he?
