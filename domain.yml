@@ -14,22 +14,17 @@ intents:
     
 - detention_after_process_en:
     use_entities: true
-    
 - detention_after_process_hi:
     use_entities: true
-    
 - detention_after_process_gu:
     use_entities: true
         
-    
-    
 - pay_fee_online_process_en:
     use_entities: true
  - pay_fee_online_process_hi:
     use_entities: true
  - pay_fee_online_process_gu:
     use_entities: true
-    
     
 - paid_less_fees_than_mentioned_en:
     use_entities: true
@@ -101,6 +96,10 @@ responses:
   
   utter_admission_cancel_en:
   - text: Answer to admission cancel in English.
+  utter_admission_cancel_hi:
+  - text: Answer to admission cancel in Hindi.
+  utter_admission_cancel_gu:
+  - text: Answer to admission cancel in Gujarati.
   
   utter_bonafide_apply_en:
   - text: Answer to how to apply for a bonafide certificate in English.
@@ -111,6 +110,11 @@ responses:
   
   utter_detention_after_process_en:
   - text: Answer to process after detention in English.
+   utter_detention_after_process_hi:
+  - text: Answer to process after detention in Hindi.
+   utter_detention_after_process_gu:
+  - text: Answer to process after detention in Gujarati.
+  
   
   utter_entered_incorrect_information_while_paying_fees_en:
   - text: Answer to entered incorrect information while paying fees in English.
@@ -121,6 +125,11 @@ responses:
   
   utter_get_duplicate_marksheet_process_en:
   - text: Answer to process for getting duplicating marksheet in English.
+  utter_get_duplicate_marksheet_process_hi:
+  - text: Answer to process for getting duplicating marksheet in Hindi.
+  utter_get_duplicate_marksheet_process_gu:
+  - text: Answer to process for getting duplicating marksheet in Gujarati.
+  
   
   utter_name_correction_marksheet_en:
   - text: Answer to name correction in marksheet in English.
@@ -145,6 +154,11 @@ responses:
   
   utter_pay_fee_online_process_en:
   - text: Answer to process for paying fees online in English.
+  utter_pay_fee_online_process_hi:
+  - text: Answer to process for paying fees online in Hindi.
+  utter_pay_fee_online_process_gu:
+  - text: Answer to process for paying fees online in Gujarati.
+  
   
   utter_refund_fees_en:
   - text: Answer to refund fees in English.
