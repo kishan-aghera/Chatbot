@@ -8,156 +8,156 @@ nlu:
     - How to change name in the mark sheet?
     - How can I correct my name in marksheet? 
     
- -intent : name_correction_marksheet_hi
-     examples: |
-       -Muje mera name sahi karvana hai marksheet me to kaise kar sakte hai?
-       -Muje mera name correct karvana hai marksheet me to kaise kar sakte hai?
-       -Name correct karvana hai marksheet me to kya process hai?
-       -Name coreect karvane ki process kya hai?
-       -Marksheet me name ki spelling me mistake hai to kese correct karva sakte hai?
-       -Marksheet me mere name ki spelling wrong hai to use thik kese karva ki process kya hai?
-       -Agar name ki spelling marksheet me galat hai to use kese thik karaya ja sakta hai?
+- intent: name_correction_marksheet_hi
+  examples: |
+     - Muje mera name sahi karvana hai marksheet me to kaise kar sakte hai?
+     - Muje mera name correct karvana hai marksheet me to kaise kar sakte hai?
+     - Name correct karvana hai marksheet me to kya process hai?
+     - Name coreect karvane ki process kya hai?
+     - Marksheet me name ki spelling me mistake hai to kese correct karva sakte hai?
+     - Marksheet me mere name ki spelling wrong hai to use thik kese karva ki process kya hai?
+     - Agar name ki spelling marksheet me galat hai to use kese thik karaya ja sakta hai?
        
--intent : name_correction_marksheet_gu
-      examples: |
-       -Mara name no spelling khoto che marksheet ma to ene sudharvani process su che?
-       -Mare name sudharavu che marksheet ma to ene kai rite karavi sakay?
-       -Jo name no spelling khoto hoy marksheet ma to ene kai rite sudhari sakay?
-       -Name no spelling wrong che to kai rite correct karavi sakay?
-       -Name na spelling ma mistake hoy to correct karavani procedure su che?
-       -Marksheet ma name na spelling ma error hoy to name kai rite correct karavi sakay?
-       -Mare name no spelling change karavo  che marksheet ma to kai rite karvai sakay?
-       -Marksheet ma spelling ma bhul hoy to ene sudharvani ni process su che?
-       -Marksheet ma spelling ma bhul hoy to ene correct karavni procedure su che?
-    
+- intent: name_correction_marksheet_gu
+  examples: |
+     - Mara name no spelling khoto che marksheet ma to ene sudharvani process su che?
+     - Mare name sudharavu che marksheet ma to ene kai rite karavi sakay?
+     - Jo name no spelling khoto hoy marksheet ma to ene kai rite sudhari sakay?
+     - Name no spelling wrong che to kai rite correct karavi sakay?
+     - Name na spelling ma mistake hoy to correct karavani procedure su che?
+     - Marksheet ma name na spelling ma error hoy to name kai rite correct karavi sakay?
+     - Mare name no spelling change karavo  che marksheet ma to kai rite karvai sakay?
+     - Marksheet ma spelling ma bhul hoy to ene sudharvani ni process su che?
+     - Marksheet ma spelling ma bhul hoy to ene correct karavni procedure su che?
+
     
 - intent: paid_fees_in_wrong_category_en
   examples: |
     - I have paid fees in the wrong category. What to do?
     - I have paid fees in wrong category then how to refund the fees?
        
- -intent : paid_fees_in_wrong_category_hi
-       examples: |
-        -Mere se fees galat category me pay ho gai hai to ab me kya karu?
-        -Mene galti se fees wrong category me bhar di hai to kya karu me ab?
-        -Mujse fees galat category me pay ho gai hai to paise vapas kese mil sakte hai?
-        -Mujse by mistake fees wrong category me pay ho gai hai to muje refund ke liye kya process karni padegi?
-        -Agar galti se paise galat category me fill kar di hai to paise wapas kese mil sakte hain?
-        -Agar galati se fees dusri category me pay ho gai hai to refund ke liye kya procedure karni padegi?
-        -Mene fees wrong category me pay kar di hai to refund ke liye kya procedure follow karu?
-        -Fees wrong category me pay ho gai ha to kese paise wapas mil sakte hai?
-        -Wrong category me fees pay kar di ho to wo fees wapas kese le sakte hai?
-        -galati se dusri category me fees bhar di ho to refund kese le sakte hain?
-        -galat section me fees pay ho gai hai to refund kese mil sakta hai?
-        -Wrong section me fees pay kar di hai mene to refund ke kiye kya pocess karni padegi?
-        -Dusre section me fees bhar di hai to refund kese mil sakta hai?
-        
--intent : paid_fees_in_wrong_category_gu
-       examples : |
-        -Mara thi fees bhulthi biji category ma pay thai gai che to paisa pacha kai rite lai sakay?
-        -Mara thi fees by mistake wrong category ma pay thai gai che to refund mate ni process su che?
-        -Bhulthi fees wrong category ma pay thai jay to refund leva mate ni procedure su che?
-        -Mara thi fees khoti category ma pay thai gai che to kai rite refund lai sakay?
-        -Fees khoti category ma pay thai jay to refund ni procedure su che?
-        -Fees biji category ma pay thai gai hoy to refund leva ni procdure su che?
-        -Mara thi bulthi fees biji category ma pay thai gai che to fees pachi kai rite lai sakay?
-        -Mara thi bhulthi fees wrong category ma pay thai gai che to refund leva mate ni process su che?
-    
-    
+- intent: paid_fees_in_wrong_category_hi
+  examples: |
+    - Mere se fees galat category me pay ho gai hai to ab me kya karu?
+    - Mene galti se fees wrong category me bhar di hai to kya karu me ab?
+    - Mujse fees galat category me pay ho gai hai to paise vapas kese mil sakte hai?
+    - Mujse by mistake fees wrong category me pay ho gai hai to muje refund ke liye kya process karni padegi?
+    - Agar galti se paise galat category me fill kar di hai to paise wapas kese mil sakte hain?
+    - Agar galati se fees dusri category me pay ho gai hai to refund ke liye kya procedure karni padegi?
+    - Mene fees wrong category me pay kar di hai to refund ke liye kya procedure follow karu?
+    - Fees wrong category me pay ho gai ha to kese paise wapas mil sakte hai?
+    - Wrong category me fees pay kar di ho to wo fees wapas kese le sakte hai?
+    - galati se dusri category me fees bhar di ho to refund kese le sakte hain?
+    - galat section me fees pay ho gai hai to refund kese mil sakta hai?
+    - Wrong section me fees pay kar di hai mene to refund ke kiye kya pocess karni padegi?
+    - Dusre section me fees bhar di hai to refund kese mil sakta hai?
+
+- intent: paid_fees_in_wrong_category_gu
+  examples: |
+    - Mara thi fees bhulthi biji category ma pay thai gai che to paisa pacha kai rite lai sakay?
+    - Mara thi fees by mistake wrong category ma pay thai gai che to refund mate ni process su che?
+    - Bhulthi fees wrong category ma pay thai jay to refund leva mate ni procedure su che?
+    - Mara thi fees khoti category ma pay thai gai che to kai rite refund lai sakay?
+    - Fees khoti category ma pay thai jay to refund ni procedure su che?
+    - Fees biji category ma pay thai gai hoy to refund leva ni procdure su che?
+    - Mara thi bulthi fees biji category ma pay thai gai che to fees pachi kai rite lai sakay?
+    - Mara thi bhulthi fees wrong category ma pay thai gai che to refund leva mate ni process su che?
+
+     
 - intent: refund_fees_en
   examples: |
     - How do I process the refund of fees?
     - I have paid fees in wrong section then how to refund those fees?
     
     
- -intent :  refund_fees_hi
-        examples : |
-        -Me refund ki process kese kar sakta hu?
-        -Me refund ki process kese kar sakti hu?
-        -Refund lene ke liye kya process hoti hai?
-        -Refund lene ki kya procedure hai?
-        -Agar fees galti se wrong category me pay gai ho to refund ke liye kese apply kar sakte hai?
-        -Fees wrong category me fill ho gai ho to refund lene ki kya procedure hoti hai?
-        -Refund kese le sakte hai?
-        -Refund lene ke liye kya karna padega?
-        -galti se fees dusri category me pay ho gai hai to refund lene ke liye kya karna padega?
-        -Refund lene ke liye kya karna hota hai?
-        -Muje refund chahiye to kya karna padega?
-       
--intent : refund_fees_gu
-       examples : |
-       -mare refund joie che to su process karvi padse?
-       -Mare refund joie che to su procedure follow karvi padse?
-       -Refund leva mate su karvu padse?
-       -Refund mate ni process su che?
-       -Refund mate ni procedure su che?
-       -Fees bhulthi biji category ma pay thai gai che to refund leva mate su process karvi padse?
-       -Mara thi fees by mistake biji category ma pay thai gai che to refund kai rite lai sakay?
-       -Agar fees bhulthi wrong category ma pay thai hoy to refund mate ni process su che?
-       -Fess refund mate ni procedure su che?
-       -Fees refund leva mate ni process su che?   
-    
+- intent:  refund_fees_hi
+  examples: |
+    - Me refund ki process kese kar sakta hu?
+    - Me refund ki process kese kar sakti hu?
+    - Refund lene ke liye kya process hoti hai?
+    - Refund lene ki kya procedure hai?
+    - Agar fees galti se wrong category me pay gai ho to refund ke liye kese apply kar sakte hai?
+    - Fees wrong category me fill ho gai ho to refund lene ki kya procedure hoti hai?
+    - Refund kese le sakte hai?
+    - Refund lene ke liye kya karna padega?
+    - galti se fees dusri category me pay ho gai hai to refund lene ke liye kya karna padega?
+    - Refund lene ke liye kya karna hota hai?
+    - Muje refund chahiye to kya karna padega?
+
+- intent: refund_fees_gu
+  examples : |
+   - mare refund joie che to su process karvi padse?
+   - Mare refund joie che to su procedure follow karvi padse?
+   - Refund leva mate su karvu padse?
+   - Refund mate ni process su che?
+   - Refund mate ni procedure su che?
+   - Fees bhulthi biji category ma pay thai gai che to refund leva mate su process karvi padse?
+   - Mara thi fees by mistake biji category ma pay thai gai che to refund kai rite lai sakay?
+   - Agar fees bhulthi wrong category ma pay thai hoy to refund mate ni process su che?
+   - Fess refund mate ni procedure su che?
+   - Fees refund leva mate ni process su che?   
+
 - intent: paid_less_fees_than_mentioned_en
   examples: |
     - I have paid lesser fees than mentioned, what to do now?
      
- -intent : paid_less_fees_than_mentioned_hi
-      examples : |
-      -Mene fees kam pay kar di hai to ab kya karu?
-      -Mene fees kam pay kar di hai to kya karu ab?
-      -By mistake fees kam pay kar di hai to ab kya karu me?
-      -Fees pay karni thi usse kam pay ho gai hai to kya process karni padegi?
-      -Jitni fees pay krni thi usse kam pay ho gai hai to kya procedure follow karni padegi?
-      -Mujse galti se kam fees pay ho gai hai to ab kya karna padega?
-      -Galti se jitni fees bharni thi usse kam bhar di hai to kya process follow karni padegi?
-      -Agar fees kam pay ho gai ho to kya process karni padegi?
-      -Fees kam pay kar di ho to kya procedure karni padegi?
-   
--intent : paid_less_fees_than_mentioned_gu
-       examples : |
-        -Mara thi fees ochi bharai gai che to have su karu?
-        -Jetli fees bharvani hati enathi ochi pay thai gai che to su karu?
-        -mara thi bhulthi ochi fees bharai gai che to su karu?
-        -mara thi bhulthi ochi fees pay thai che to su process karvi padse?
-        -Fees ochi pay kari hoy to kai procedure follow karvi padse?
-        -Bhulthi fees ochi bharai gai che to su process karvi padse?
-        -By mistake fees jetli pay karvani hati ena thi ochi pay thai gai che to su procedure karvi padse?
-        -Jetli fees pay karavni hati ena thi ochi fees pay kari didhi hoy to su karu?
-        -Ochi fees pay thai jay to su procedure karvi padse change karva mate?  
- 
+- intent: paid_less_fees_than_mentioned_hi
+  examples: |
+    - Mene fees kam pay kar di hai to ab kya karu?
+    - Mene fees kam pay kar di hai to kya karu ab?
+    - By mistake fees kam pay kar di hai to ab kya karu me?
+    - Fees pay karni thi usse kam pay ho gai hai to kya process karni padegi?
+    - Jitni fees pay krni thi usse kam pay ho gai hai to kya procedure follow karni padegi?
+    - Mujse galti se kam fees pay ho gai hai to ab kya karna padega?
+    - Galti se jitni fees bharni thi usse kam bhar di hai to kya process follow karni padegi?
+    - Agar fees kam pay ho gai ho to kya process karni padegi?
+    - Fees kam pay kar di ho to kya procedure karni padegi?
+
+- intent: paid_less_fees_than_mentioned_gu
+  examples: |
+    - Mara thi fees ochi bharai gai che to have su karu?
+    - Jetli fees bharvani hati enathi ochi pay thai gai che to su karu?
+    - mara thi bhulthi ochi fees bharai gai che to su karu?
+    - mara thi bhulthi ochi fees pay thai che to su process karvi padse?
+    - Fees ochi pay kari hoy to kai procedure follow karvi padse?
+    - Bhulthi fees ochi bharai gai che to su process karvi padse?
+    - By mistake fees jetli pay karvani hati ena thi ochi pay thai gai che to su procedure karvi padse?
+    - Jetli fees pay karavni hati ena thi ochi fees pay kari didhi hoy to su karu?
+    - Ochi fees pay thai jay to su procedure karvi padse change karva mate?  
+
     
 - intent: entered_incorrect_information_while_paying_fees_en
   examples: |
     - I have entered incorrect enrollment no. while paying the fees, what to do now?
     - I have entered incorrect branch while paying the fees, what to do now?
     
- -intent : entered_incorrect_information_while_paying_fees_hi
-       examples : |
-        -Fees pay karte time galti se name ki spelling wrong type ho gai hai to ab kya karna padega?
-        -Fees bharne k time par galat stream select kar li thi to kya karu ab?
-        -Fees bharne k time par galat department choose kar liya tha to kya karu ab me?
-        -category galat chhose kar li thi fees pay karne k time par to kya process karni hogi?
-        -name ki spelling galat type ho gai thi fees pay karne k time par to kya process karni hogi?
-        -Galat stream select ho gai thi fees pay krne k time par to kya process karni padegi?
-        -Fees pay karte time wrong name spelling enter kar di thi to kya process krni padegi?
-        -Fees pay karte time wrong stream select kar di thi to kya karna padega?
-        -Fees pay karte time wrong department select kar di thi to kya kar sak te hai ab?
-        -Galat branch choose kar li thi fees pay karne k time par to ab kya kar sakte hai?
-        -Fees pay kar te time wrong branch select kar di thi kya process karni padegi?
-        -Agar fees pay karte time par galat branch select kar di ho to kya kar te hai?
-        
--intent : entered_incorrect_information_while_paying_fees_gu
-       examples : | 
-        -Fees pay karta time e khoti stream choose thai gai che to su kari sakay?
-        -Fees bharta time e wrong stream select kari lidhi hoy to su process karvi padse?
-        -stream khoti choose thai gai che fees pay karta time e to su karu?
-        -Fees pay karta time e khoti branch choose thai gai che to su kari sakay?
-        -Fees bharta time e wrong branch select kari lidhi hoy to su process karvi padse?
-        -branch khoti choose thai gai che fees pay karta time e to su karu?
-        -Fees pay karta time e khotu name type thai gayu che to su kari sakay?
-        -Fees bharta time e wrong name type kari lidhu hoy to su process karvi padse?
-        -name khotu type thai gayu che fees pay karta time e to su karu?   
-    
+- intent: entered_incorrect_information_while_paying_fees_hi
+  examples: |
+    - Fees pay karte time galti se name ki spelling wrong type ho gai hai to ab kya karna padega?
+    - Fees bharne k time par galat stream select kar li thi to kya karu ab?
+    - Fees bharne k time par galat department choose kar liya tha to kya karu ab me?
+    - category galat chhose kar li thi fees pay karne k time par to kya process karni hogi?
+    - name ki spelling galat type ho gai thi fees pay karne k time par to kya process karni hogi?
+    - Galat stream select ho gai thi fees pay krne k time par to kya process karni padegi?
+    - Fees pay karte time wrong name spelling enter kar di thi to kya process krni padegi?
+    - Fees pay karte time wrong stream select kar di thi to kya karna padega?
+    - Fees pay karte time wrong department select kar di thi to kya kar sak te hai ab?
+    - Galat branch choose kar li thi fees pay karne k time par to ab kya kar sakte hai?
+    - Fees pay kar te time wrong branch select kar di thi kya process karni padegi?
+    - Agar fees pay karte time par galat branch select kar di ho to kya kar te hai?
+
+- intent: entered_incorrect_information_while_paying_fees_gu
+  examples: | 
+    - Fees pay karta time e khoti stream choose thai gai che to su kari sakay?
+    - Fees bharta time e wrong stream select kari lidhi hoy to su process karvi padse?
+    - stream khoti choose thai gai che fees pay karta time e to su karu?
+    - Fees pay karta time e khoti branch choose thai gai che to su kari sakay?
+    - Fees bharta time e wrong branch select kari lidhi hoy to su process karvi padse?
+    - branch khoti choose thai gai che fees pay karta time e to su karu?
+    - Fees pay karta time e khotu name type thai gayu che to su kari sakay?
+    - Fees bharta time e wrong name type kari lidhu hoy to su process karvi padse?
+    - name khotu type thai gayu che fees pay karta time e to su karu?   
+
 - intent: bonafide_apply_en
   examples: |
     - How do I apply for a bonafide? 
@@ -187,7 +187,7 @@ nlu:
     - How to pay the fees online?
     
 - intent : pay_fee_online_process_hi   
-   examples: 
+   examples: |
      - Muje online fees pay karni hai to kaise kar sakte hai? 
      - Muje fees online bharni hai to kaise kar sakte hai?
      - Online Fees pay karne ki process kya hai?
@@ -196,8 +196,8 @@ nlu:
      -online fees kaise pay karte hai?
      -online fees payment kaise bharni hoti hai?
      
-     -intent : pay_fee_online_process_gu
-    examples:
+-intent : pay_fee_online_process_gu
+    examples: |
 -Mare online fees bharvi che kai rite karvani?
 -online fees nu payment kai rite karvanu?
 -online fees pay karvani process shu che?
