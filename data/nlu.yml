@@ -162,7 +162,7 @@ nlu:
   examples: |
     - How do I apply for a bonafide? 
     
-- intent: bonafide_apply_hi
+- intent : bonafide_apply_hi
   examples: |
     - Muje bonafide chahie to kya process hai?
     - Bonafide ke liye apply karna hai o konsi procedure follow karni hogi?
@@ -186,7 +186,7 @@ nlu:
   examples: |
     - How to pay the fees online?
     
-- intent: pay_fee_online_process_hi   
+- intent : pay_fee_online_process_hi   
   examples: |
     - Muje online fees pay karni hai to kaise kar sakte hai? 
     - Muje fees online bharni hai to kaise kar sakte hai?
@@ -196,7 +196,7 @@ nlu:
     - online fees kaise pay karte hai?
     - online fees payment kaise bharni hoti hai?
      
-- intent: pay_fee_online_process_gu
+- intent : pay_fee_online_process_gu
   examples: |
     - Mare online fees bharvi che kai rite karvani?
     - online fees nu payment kai rite karvanu?
@@ -210,7 +210,7 @@ nlu:
     - What to do for the duplicate mark sheet?
     
  - intent: get_duplicate_marksheet_process_hi
-   examples: |
+  examples: |
    - muje duplicate marksheet karvani che to uski process kya hai?
    - muje meri marksheet ki duplicate copy chahiye to kya karna hai?
    - muje meri marksheet ki duplicate karani hai to kya karna hoga?
@@ -220,8 +220,8 @@ nlu:
    - muje duplicate marksheet k liye kya karna hoga?
 
 
-- intent: get_duplicate_marksheet_process_gu
-  examples: |
+- intent : get_duplicate_marksheet_process_gu
+examples: |
    - mare duplicate marksheet karvi che to eni process shu che?
    - mare mari marksheet ni duplicate karavi che to ena mate shu karvanu?
    - marksheet ni biji copy ni process shu che?
@@ -235,7 +235,7 @@ nlu:
   examples: |
     - Cancellation of admission
     
-- intent: admission_cancel_hi
+- intent : admission_cancel_hi
   examples: |
    - muje admission cancel karna hai to uski process kya hai?
    - muje vishwakarma me admission cancel karana hai to uske liye kya karna hoga? 
@@ -247,7 +247,7 @@ nlu:
    - muje admission cancel karna hai toh me kar sakta hu?
 
 
-- intent: admission_cancel_gu
+- intent : admission_cancel_gu
   examples: |
    - mare admission cancel karvu che toh kai rite karvanu?
    - mare vgec ma admission cancel karvu hoy to en mate shu karvanu?
@@ -271,7 +271,7 @@ nlu:
    - mera detain ka period khatam ho chuka hai ab resume kaise karneka?
 
 
-- intent: detention_after_process_gu
+- intent : detention_after_process_gu
   examples: |
    - maru detain no time pati gayo che have farithi sharu kai rite karvanu?
    - maru detain no samay puro thai gayo che toh farithi bhanvanu chalu karvani shu process che?
