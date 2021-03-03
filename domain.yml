@@ -15,21 +15,9 @@ intents:
 - detention_after_process_en:
     use_entities: true
     
-- detention_after_process_hi:
-    use_entities: true
-    
-- detention_after_process_gu:
-    use_entities: true
-        
-    
     
 - pay_fee_online_process_en:
     use_entities: true
- - pay_fee_online_process_hi:
-    use_entities: true
- - pay_fee_online_process_gu:
-    use_entities: true
-    
     
 - paid_less_fees_than_mentioned_en:
     use_entities: true
@@ -47,11 +35,6 @@ intents:
     
 - get_duplicate_marksheet_process_en:
     use_entities: true
-- get_duplicate_marksheet_process_hi:
-    use_entities: true
-- get_duplicate_marksheet_process_gu:
-    use_entities: true
-    
     
 - bonafide_apply_en:
     use_entities: true
@@ -62,11 +45,6 @@ intents:
     
 - admission_cancel_en:
     use_entities: true
-- admission_cancel_hi:
-    use_entities: true
-- admission_cancel_gu:
-    use_entities: true
-            
     
 - refund_fees_en:
     use_entities: true
