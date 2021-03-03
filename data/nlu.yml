@@ -209,8 +209,8 @@ nlu:
   examples: |
     - What to do for the duplicate mark sheet?
     
- - intent: get_duplicate_marksheet_process_hi
-   examples: |
+- intent: get_duplicate_marksheet_process_hi
+  examples: |
    - muje duplicate marksheet karvani che to uski process kya hai?
    - muje meri marksheet ki duplicate copy chahiye to kya karna hai?
    - muje meri marksheet ki duplicate karani hai to kya karna hoga?

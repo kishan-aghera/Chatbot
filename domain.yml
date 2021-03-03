@@ -21,9 +21,9 @@ intents:
         
 - pay_fee_online_process_en:
     use_entities: true
- - pay_fee_online_process_hi:
+- pay_fee_online_process_hi:
     use_entities: true
- - pay_fee_online_process_gu:
+- pay_fee_online_process_gu:
     use_entities: true
     
 - paid_less_fees_than_mentioned_en:
@@ -103,16 +103,16 @@ responses:
   
   utter_bonafide_apply_en:
   - text: Answer to how to apply for a bonafide certificate in English.
-   utter_bonafide_apply_hi:
+  utter_bonafide_apply_hi:
   - text: Answer to how to apply for a bonafide certificate in Hindi.
-   utter_bonafide_apply_gu:
+  utter_bonafide_apply_gu:
   - text: Answer to how to apply for a bonafide certificate in Gujarati.
   
   utter_detention_after_process_en:
   - text: Answer to process after detention in English.
-   utter_detention_after_process_hi:
+  utter_detention_after_process_hi:
   - text: Answer to process after detention in Hindi.
-   utter_detention_after_process_gu:
+  utter_detention_after_process_gu:
   - text: Answer to process after detention in Gujarati.
   
   
