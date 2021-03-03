@@ -7,131 +7,59 @@ session_config:
 intents:
 - name_correction_marksheet_en:
     use_entities: true
-- name_correction_marksheet_hi:
-    use_entities: true
-- name_correction_marksheet_gu:
-    use_entities: true
-    
 - detention_after_process_en:
     use_entities: true
-    
-    
 - pay_fee_online_process_en:
     use_entities: true
-    
 - paid_less_fees_than_mentioned_en:
     use_entities: true
-- paid_less_fees_than_mentioned_hi:
-    use_entities: true
-- paid_less_fees_than_mentioned_gu:
-    use_entities: true
-    
 - entered_incorrect_information_while_paying_fees_en:
     use_entities: true
-- entered_incorrect_information_while_paying_fees_hi:
-    use_entities: true
-- entered_incorrect_information_while_paying_fees_gu:
-    use_entities: true
-    
 - get_duplicate_marksheet_process_en:
     use_entities: true
-    
 - bonafide_apply_en:
     use_entities: true
-- bonafide_apply_hi:
-    use_entities: true
-- bonafide_apply_gu:
-    use_entities: true
-    
 - admission_cancel_en:
     use_entities: true
-    
 - refund_fees_en:
     use_entities: true
-- refund_fees_hi:
-    use_entities: true
-- refund_fees_gu:
-    use_entities: true
-    
 - paid_fees_in_wrong_category_en:
     use_entities: true
-- paid_fees_in_wrong_category_hi:
-    use_entities: true
-- paid_fees_in_wrong_category_gu:
-    use_entities: true
-    
 - get_scholarship_en:
     use_entities: true
 - get_scholarship_gu:
     use_entities: true
 - get_scholarship_hi:
     use_entities: true
-    
 entities: []
 slots: {}
 responses:
   utter_get_scholarship_en:
   - text: Answer to get a scholarship in English.
+  utter_admission_cancel_en:
+  - text: Answer to admission cancel in English.
+  utter_bonafide_apply_en:
+  - text: Answer to how to apply for a bonafide certificate in English.
+  utter_detention_after_process_en:
+  - text: Answer to process after detention in English.
+  utter_entered_incorrect_information_while_paying_fees_en:
+  - text: Answer to entered incorrect information while paying fees in English.
+  utter_get_duplicate_marksheet_process_en:
+  - text: Answer to process for getting duplicating marksheet in English.
+  utter_name_correction_marksheet_en:
+  - text: Answer to name correction in marksheet in English.
+  utter_paid_fees_in_wrong_category_en:
+  - text: Answer to paid fees in wrong category in English.
+  utter_paid_less_fees_than_mentioned_en:
+  - text: Answer to paid less fees than mentioned in English.
+  utter_pay_fee_online_process_en:
+  - text: Answer to process for paying fees online in English.
+  utter_refund_fees_en:
+  - text: Answer to refund fees in English.
   utter_get_scholarship_hi:
   - text: Scholarship kese mile uska jawab. स्कोलशीप केसे मीले उस्का जवाब.
   utter_get_scholarship_gu:
   - text: Scholarship kai rite male eno jawab. સ્કોલરશીપ કઈ રીતે મલે એનો જવાબ.
-  
-  utter_admission_cancel_en:
-  - text: Answer to admission cancel in English.
-  
-  utter_bonafide_apply_en:
-  - text: Answer to how to apply for a bonafide certificate in English.
-   utter_bonafide_apply_hi:
-  - text: Answer to how to apply for a bonafide certificate in Hindi.
-   utter_bonafide_apply_gu:
-  - text: Answer to how to apply for a bonafide certificate in Gujarati.
-  
-  utter_detention_after_process_en:
-  - text: Answer to process after detention in English.
-  
-  utter_entered_incorrect_information_while_paying_fees_en:
-  - text: Answer to entered incorrect information while paying fees in English.
-  utter_entered_incorrect_information_while_paying_fees_hi:
-  - text: Answer to entered incorrect information while paying fees in Hindi.  
-  utter_entered_incorrect_information_while_paying_fees_gu:
-  - text: Answer to entered incorrect information while paying fees in Gujarati.
-  
-  utter_get_duplicate_marksheet_process_en:
-  - text: Answer to process for getting duplicating marksheet in English.
-  
-  utter_name_correction_marksheet_en:
-  - text: Answer to name correction in marksheet in English.
-  utter_name_correction_marksheet_hi:
-  - text: Answer to name correction in marksheet in Hindi.
-  utter_name_correction_marksheet_gu:
-  - text: Answer to name correction in marksheet in Gujarati.
-  
-  utter_paid_fees_in_wrong_category_en:
-  - text: Answer to paid fees in wrong category in English.
-  utter_paid_fees_in_wrong_category_hi:
-  - text: Answer to paid fees in wrong category in Hindi.
-  utter_paid_fees_in_wrong_category_gu:
-  - text: Answer to paid fees in wrong category in Gujarati.
-  
-  utter_paid_less_fees_than_mentioned_en:
-  - text: Answer to paid less fees than mentioned in English.
-  utter_paid_less_fees_than_mentioned_hi:
-  - text: Answer to paid less fees than mentioned in Hindi.
-  utter_paid_less_fees_than_mentioned_gu:
-  - text: Answer to paid less fees than mentioned in Gujarati.
-  
-  utter_pay_fee_online_process_en:
-  - text: Answer to process for paying fees online in English.
-  
-  utter_refund_fees_en:
-  - text: Answer to refund fees in English.
-  utter_refund_fees_hi:
-  - text: Answer to refund fees in Hindi.
-  utter_refund_fees_gu:
-  - text: Answer to refund fees in Gujarati.
-  
-  
 actions: []
 forms: {}
 e2e_actions: []
