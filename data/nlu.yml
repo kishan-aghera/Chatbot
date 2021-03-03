@@ -252,3 +252,9 @@ nlu:
     - Bonafide ni process su che?
     - Bonafide melvva mate ni procedure su che?
     - Bonafide kai rite mali sake?
+- intent: detention_after_process_gu
+  examples: |
+    - maru detain no time pati gayo che have farithi sharu kai rite karvanu?
+    - maru detain no samay puro thai gayo che toh farithi bhanvanu chalu karvani shu process che?
+    - maru detain nu pati gayu che resume karvani ni shu process che?
+    - hu detain thai chu to pachu resume karvu che toh eni procedure shu che?

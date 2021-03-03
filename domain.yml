@@ -69,6 +69,8 @@ intents:
     use_entities: true
 - refund_fees_hi:
     use_entities: true
+- detention_after_process_gu:
+    use_entities: true
 entities: []
 slots: {}
 responses:
