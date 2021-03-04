@@ -31,6 +31,7 @@ nlu:
 - intent: get_duplicate_marksheet_process_en
   examples: |
     - What to do for the duplicate mark sheet?
+    - How to get duplicate marksheet?
 - intent: admission_cancel_en
   examples: |
     - Cancellation of admission
@@ -152,6 +153,7 @@ nlu:
     - galat section me fees pay ho gai hai to refund kese mil sakta hai?
     - Wrong section me fees pay kar di hai mene to refund ke kiye kya pocess karni padegi?
     - Dusre section me fees bhar di hai to refund kese mil sakta hai?
+    - Mene fees dusri category me pay kar di hai to refund ke liye kya procedure follow karu?
 - intent: paid_fees_in_wrong_category_gu
   examples: |
     - Mara thi fees bhulthi biji category ma pay thai gai che to paisa pacha kai rite lai sakay?
@@ -252,6 +254,7 @@ nlu:
     - Bonafide ni process su che?
     - Bonafide melvva mate ni procedure su che?
     - Bonafide kai rite mali sake?
+    - bonafide ma te apply kai rite karvanu?
 - intent: detention_after_process_gu
   examples: |
     - maru detain no time pati gayo che have farithi sharu kai rite karvanu?
