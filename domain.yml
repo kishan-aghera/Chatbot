@@ -71,6 +71,30 @@ intents:
     use_entities: true
 - detention_after_process_gu:
     use_entities: true
+- greeting_hello_en:
+    use_entities: true
+- greeting_bye_en:
+    use_entities: true
+- greeting_hello_gu:
+    use_entities: true
+- greeting_hello_hi:
+    use_entities: true
+- greeting_bye_gu:
+    use_entities: true
+- greeting_bye_hi:
+    use_entities: true
+- bot_related_question_en:
+    use_entities: true
+- bot_developers_en:
+    use_entities: true
+- bot_related_question_hi:
+    use_entities: true
+- bot_related_question_gu:
+    use_entities: true
+- bot_developers_hi:
+    use_entities: true
+- bot_developers_gu:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -140,6 +164,30 @@ responses:
   - text: Answer to refund fees in Hindi.
   utter_refund_fees_gu:
   - text: Answer to refund fees in Gujarati.
+  utter_greeting_hello_en:
+  - text: Hello, How may I help you?
+  utter_greeting_hello_hi:
+  - text: Hello, me aapki kese sahayata kar sakta hu?
+  utter_greeting_hello_gu:
+  - text: Hello, Hu tamari kai rite madad kari saku?
+  utter_greeting_bye_en:
+  - text: Bye, Thanks for visiting us.
+  utter_greeting_bye_hi:
+  - text: Bye, Hame visit karne ke liye dhanyadvad.
+  utter_greeting_bye_gu:
+  - text: Bye, Amari mulakat leva mate aabhar.
+  utter_bot_related_question_en:
+  - text: I am a bot. You can ask me questions related to VGEC. I will try my best to answer your questions. You can talk to me in English, Hindi, and Gujarati like you chat with anyone on WhatsApp.
+  utter_bot_developers_en:
+  - text: I was created using the Rasa chatbot framework by Kishan Aghera, Jinesh Majithia, Hirva Mathiya, and Yashvi Modi under the guidance of Prof. Uttam G. Chauhan sir.
+  utter_bot_related_question_hi:
+  - text: Me ek bot hu. Aap mujshe VGEC ke sambhandit prashn puch sakte he. Me aapke sawalo ka jawaab dene ki puri kosish karunga. Aap mujhse English, Hindi aur Gujarati me baat kar sakte he jese aap kisi se WhatsApp par chat karte he.
+  utter_bot_related_question_gu:
+  - text: Hu bot chhu. Tame mane VGEC thi sambhandit prashno puchi sako chho. Hu tamara prashno na jawaabo aapvana no prayatna karis. Tame mari sathe English, Hindi and Gujarati ma vaat kari sako chho, jem k tame WhatsApp par koi pan sathe chat karo chho.
+  utter_bot_developers_hi:
+  - text: Mein Prof. Uttam G. Chauhan sir ke maargadarshan mein Kishan Aghera, Jinesh Majithia, Hirva Mathiya, aur Yashvi Modi dvaara rasa chatbot framework ka upayog karake banaaya gaya tha.
+  utter_bot_developers_gu:
+  - text: Mane Prof. Uttam G. Chauhan sir na Maargdarshan hethal Kishan Aghera, Jinesh Majithia, Hirva Mathiya, ane Yashvi Modi dwara Rasa Chatbot Framework no upayog karine banavama avyo hato.
 actions: []
 forms: {}
 e2e_actions: []

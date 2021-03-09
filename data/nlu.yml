@@ -7,10 +7,12 @@ nlu:
     - How to correct my name in the mark sheet?
     - How to change name in the mark sheet?
     - How can I correct my name in marksheet?
+    - The marksheet contains wrong name of me, what to do?
 - intent: paid_fees_in_wrong_category_en
   examples: |
     - I have paid fees in the wrong category. What to do?
     - I have paid fees in wrong category then how to refund the fees?
+    - I paid my fees in different branch, what to do?
 - intent: refund_fees_en
   examples: |
     - How do I process the refund of fees?
@@ -32,12 +34,18 @@ nlu:
   examples: |
     - What to do for the duplicate mark sheet?
     - How to get duplicate marksheet?
+    - How to get duplicate mark sheet?
+    - I want duplicate mark sheet, what is the process for that?
 - intent: admission_cancel_en
   examples: |
     - Cancellation of admission
 - intent: detention_after_process_en
   examples: |
     - The process for resuming the study after the detention period is over
+    - What is the process after detention is over?
+    - My detention is over. Now, what to do?
+    - My detention is over, now what to do?
+    - How to resume studying in college after detention is over?
 - intent: get_scholarship_en
   examples: |
     - How to get scholarship?
@@ -112,6 +120,7 @@ nlu:
     - mane maru admission kadhva mate shu karvanu?
     - mane vishwakarma ma admission lidhu che toh ene cancel karvu che toh thase?
     - agar mare admission cancel karvu hoy to kari shaku?
+    - mare maru admission vgec ma thi cancel karavi nakhvu 6e to hu kai rite kari saku?
 - intent: detention_after_process_hi
   examples: |
     - mera detention period khatam ho chuka hai ab padai firse start karne ki process kya hai?
@@ -127,6 +136,7 @@ nlu:
     - Marksheet me name ki spelling me mistake hai to kese correct karva sakte hai?
     - Marksheet me mere name ki spelling wrong hai to use thik kese karva ki process kya hai?
     - Agar name ki spelling marksheet me galat hai to use kese thik karaya ja sakta hai?
+    - mera name galat likha he marksheet me, to ab me kya kar sakta hu?
 - intent: name_correction_marksheet_gu
   examples: |
     - Mara name no spelling khoto che marksheet ma to ene sudharvani process su che?
@@ -138,6 +148,8 @@ nlu:
     - Mare name no spelling change karavo  che marksheet ma to kai rite karvai sakay?
     - Marksheet ma spelling ma bhul hoy to ene sudharvani ni process su che?
     - Marksheet ma spelling ma bhul hoy to ene correct karavni procedure su che?
+    - maru name khotu lakhelu avyu chhe marksheet to have hu su karu?
+    - mare marksheet ma naam change karavanu 6e because naam khotu lakhelu avyu 6e pelethi, to mare have su karvu joie?
 - intent: paid_fees_in_wrong_category_hi
   examples: |
     - Mere se fees galat category me pay ho gai hai to ab me kya karu?
@@ -164,6 +176,7 @@ nlu:
     - Fees biji category ma pay thai gai hoy to refund leva ni procdure su che?
     - Mara thi bulthi fees biji category ma pay thai gai che to fees pachi kai rite lai sakay?
     - Mara thi bhulthi fees wrong category ma pay thai gai che to refund leva mate ni process su che?
+    - mari 8th sem ni fee bharta samaye me bhulti judi category ma bhari didhi 6e to have?
 - intent: refund_fees_hi
   examples: |
     - Me refund ki process kese kar sakta hu?
@@ -189,6 +202,7 @@ nlu:
     - Agar fees bhulthi wrong category ma pay thai hoy to refund mate ni process su che?
     - Fees refund mate ni procedure su che?
     - Fees refund leva mate ni process su che?
+    - Mari fees 2 vaar cut thai gai 6e bank account mathi, to mane refund kyare malse?
 - intent: paid_less_fees_than_mentioned_hi
   examples: |
     - Mene fees kam pay kar di hai to ab kya karu?
@@ -245,6 +259,7 @@ nlu:
     - Agar bonafide chahie to kya process rahegi?
     - Agar bonafide k liye apply karna hai to kese kar sakte hai?
     - Bonafide kese mil sakta hai?
+    - Mujhe bonafide certificate chaie passport nikalne ke liye, to muje kese milega?
 - intent: bonafide_apply_gu
   examples: |
     - Mare bonafide joie che to su karu?
@@ -255,9 +270,65 @@ nlu:
     - Bonafide melvva mate ni procedure su che?
     - Bonafide kai rite mali sake?
     - bonafide ma te apply kai rite karvanu?
+    - mare bonafide certificate joie 6e to mare su karvanu?
 - intent: detention_after_process_gu
   examples: |
     - maru detain no time pati gayo che have farithi sharu kai rite karvanu?
     - maru detain no samay puro thai gayo che toh farithi bhanvanu chalu karvani shu process che?
     - maru detain nu pati gayu che resume karvani ni shu process che?
     - hu detain thai chu to pachu resume karvu che toh eni procedure shu che?
+    - mare gai kale detention pati gyu 6e to have mare su karvanu?
+- intent: greeting_hello_en
+  examples: |
+    - Hii
+    - Hi
+    - Hello
+    - Hey
+    - Heyy
+    - How are you?
+- intent: greeting_hello_hi
+  examples: |
+    - kese ho aap?
+    - aap kese ho?
+- intent: greeting_hello_gu
+  examples: |
+    - kem cho?
+    - tame kem cho?
+- intent: greeting_bye_en
+  examples: |
+    - byee
+    - bye bot
+    - bye
+    - Bot byeee
+- intent: greeting_bye_hi
+  examples: |
+    - milte hai fir apse
+    - chalo bye
+    - fir milte hai apse
+- intent: greeting_bye_gu
+  examples: |
+    - bye malie pachi
+    - malie pachi
+- intent: bot_related_question_en
+  examples: |
+    - Who are you?
+    - Who am I talking to?
+    - Are you human?
+- intent: bot_developers_en
+  examples: |
+    - Who created you?
+- intent: bot_related_question_hi
+  examples: |
+    - Aap kon ho?
+- intent: bot_related_question_gu
+  examples: |
+    - Tame kon chho?
+    - Tame kon 6o?
+    - Tame kon cho?
+- intent: bot_developers_hi
+  examples: |
+    - Aapko kisne banaya?
+- intent: bot_developers_gu
+  examples: |
+    - Tamne kone banavya?
+    - Kone tamne banavya?

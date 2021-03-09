@@ -132,3 +132,51 @@ rules:
   steps:
   - intent: refund_fees_gu
   - action: utter_refund_fees_gu
+- rule: Start Greeting in English
+  steps:
+  - intent: greeting_hello_en
+  - action: utter_greeting_hello_en
+- rule: Start Greeting in Hindi
+  steps:
+  - intent: greeting_hello_hi
+  - action: utter_greeting_hello_hi
+- rule: Start Greeting in Gujarati
+  steps:
+  - intent: greeting_hello_gu
+  - action: utter_greeting_hello_gu
+- rule: End Greeting in English
+  steps:
+  - intent: greeting_bye_en
+  - action: utter_greeting_bye_en
+- rule: End Greeting in Hindi
+  steps:
+  - intent: greeting_bye_hi
+  - action: utter_greeting_bye_hi
+- rule: End Greeting in Gujarati
+  steps:
+  - intent: greeting_bye_gu
+  - action: utter_greeting_bye_gu
+- rule: Bot Related Question in English
+  steps:
+  - intent: bot_related_question_en
+  - action: utter_bot_related_question_en
+- rule: Bot Developers in English
+  steps:
+  - intent: bot_developers_en
+  - action: utter_bot_developers_en
+- rule: Bot Related Question in Hindi
+  steps:
+  - intent: bot_related_question_hi
+  - action: utter_bot_related_question_hi
+- rule: Bot Related Question in Gujarati
+  steps:
+  - intent: bot_related_question_gu
+  - action: utter_bot_related_question_gu
+- rule: Bot Developers in Hindi
+  steps:
+  - intent: bot_developers_hi
+  - action: utter_bot_developers_hi
+- rule: Bot Developers in Gujarati
+  steps:
+  - intent: bot_developers_gu
+  - action: utter_bot_developers_gu
