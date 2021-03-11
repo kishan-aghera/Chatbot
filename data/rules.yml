@@ -180,3 +180,27 @@ rules:
   steps:
   - intent: bot_developers_gu
   - action: utter_bot_developers_gu
+- rule: Name of Principal in English
+  steps:
+  - intent: name_of_principal_en
+  - action: utter_name_of_principal_en
+- rule: Name of Principal in Hindi
+  steps:
+  - intent: name_of_principal_hi
+  - action: utter_name_of_principal_hi
+- rule: Name of Principal in Gujarati
+  steps:
+  - intent: name_of_principal_gu
+  - action: utter_name_of_principal_gu
+- rule: Total branches in English
+  steps:
+  - intent: total_branches_en
+  - action: utter_total_branches_en
+- rule: Total branches in Hindi
+  steps:
+  - intent: total_branches_hi
+  - action: utter_total_branches_hi
+- rule: Total branches in Gujarati
+  steps:
+  - intent: total_branches_gu
+  - action: utter_total_branches_gu

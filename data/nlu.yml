@@ -127,6 +127,7 @@ nlu:
     - mera detention pura ho chuka hai study resume karne ki kya procedure hai?
     - muje detention ka time khtam ho gaya hai ab resume karne ki kya process hai?
     - mera detain ka period khatam ho chuka hai ab resume kaise karneka?
+    - meri detention abhi khatam ho gayi he to ab me kya karu?
 - intent: name_correction_marksheet_hi
   examples: |
     - Muje mera name sahi karvana hai marksheet me to kaise kar sakte hai?
@@ -150,6 +151,8 @@ nlu:
     - Marksheet ma spelling ma bhul hoy to ene correct karavni procedure su che?
     - maru name khotu lakhelu avyu chhe marksheet to have hu su karu?
     - mare marksheet ma naam change karavanu 6e because naam khotu lakhelu avyu 6e pelethi, to mare have su karvu joie?
+    - mare mari marksheet ma name badlavvanu chhe to hu su kari saku k jethi maru name badli jaay
+    - maru name khotu avyu 6e marksheet ma to have hu su karu??
 - intent: paid_fees_in_wrong_category_hi
   examples: |
     - Mere se fees galat category me pay ho gai hai to ab me kya karu?
@@ -278,6 +281,7 @@ nlu:
     - maru detain nu pati gayu che resume karvani ni shu process che?
     - hu detain thai chu to pachu resume karvu che toh eni procedure shu che?
     - mare gai kale detention pati gyu 6e to have mare su karvanu?
+    - maru detention pati gyu 6e to have hu su karu?
 - intent: greeting_hello_en
   examples: |
     - Hii
@@ -332,3 +336,190 @@ nlu:
   examples: |
     - Tamne kone banavya?
     - Kone tamne banavya?
+- intent: name_of_principal_en
+  examples: |
+    - what is the name of principal?
+    - who is principal of vgec college?
+    - who is principal of this college?
+    - name of the principal
+    - Principal name of this college
+    - can you tell me the name of principal ?
+    - Please tell me the name of the principal of this college
+    - plz tel me name of the principal
+    - please tell the name of principal
+    - principal's name of college vgec
+    - vgec college's principal name
+    - Tell me principal's name
+    - Tel me principal name
+    - Tell me name of the principal of this college
+    - tel me nam of prinipal
+    - principal's name of this college
+    - This college's principal name
+    - Can you please tell me this college's principal name
+    - Tell me this college's principal name
+    - Tell the name of principal
+    - Do you know who is the this college's principal
+    - Do you the name of this college's principal?
+    - Do you know who is principal?
+    - Do you know who is principal of this vgec college?
+    - can you please tel me who is this college's principal?
+    - Can you plz tell me who is this college's principal?
+    - can you please tell me principal name of this college?
+    - can you plz tel me principal nam of this college?
+    - Can you please tell me principal's name of vgec college?
+    - name of principal of vgec campus
+    - Principal's name of this vgec college
+    - Principal's name of this vgec campus,chandkheda
+    - principal's name of this college campus
+    - Principal's name of this vgec campus chandkheda
+    - vgec campus principal's name
+- intent: name_of_principal_hi
+  examples: |
+    - Principal ka name kya hai?
+    - Is college ke principal kon hai?
+    - College k principal ka name kya hai?
+    - Kon hai is college ka principal?
+    - VGEC college ka principal kon hai?
+    - name kya hai principal ka?
+    - nam kya hain principal ka?
+    - nam kya hai aacharya ka?
+    - name kya hain aacharya ka?
+    - iss college me principal kon hai?
+    - iss college me principal kon hain?
+    - is college k principal kon hain?
+    - is college k principal ka name kya hai?
+    - is college k principal ka name kya hain?
+    - kon hain is college ka principal?
+    - kon hai iss college ka principal?
+    - vgec college ka principal kon hain?
+    - vgec me principal kon hain?
+    - kya me is college ke principal ka name jan sakti hu?
+    - kya main is college ke principal ka name jan sakti hu?
+    - kya mai iss college ke principal ka name jan sakti hu?
+    - kya main iss college ke principal ka nam jan sakti hu?
+    - kya mai is college ke principal ka name jan sakta hu?
+    - kya main iss college ke principal ka nam jan sakta hun?
+    - Apko pata hai is college ke principal ka name?
+    - apko pta hain iss college ke principal ka name?
+    - apko pta hain is collge k principal ka nam?
+    - apko pata hai is college k principal ka nam kya hain?
+    - Kya aap muje is college k principal ka name bata sakte hain?
+    - kya ap muze is college ke principal ka name bata sakte hai?
+    - kya aap muje is college k principal ka nam bta sakte hain?
+    - Is college k principal ka name batao
+    - is collge me kon hain principal?
+    - principal ka name
+    - principal ka nam janna hai muje
+    - is college k principal ka nam janna hai muje
+    - vgec college me kon hai principal?
+    - Muje vgec college k principal k name ki jankari chahiye
+    - vgec college k principal ka name janna tha muje
+    - is college ka principal kon hai?
+    - principal ka name kya hai vgec college ka?
+    - app muje principal k name ki jankari de sakte hai?
+    - Ap muje principal k nam ki jankari de skte hai?
+    - Ap muje principal k name ki jankari de sakte hain?
+- intent: name_of_principal_gu
+  examples: |
+    - Aa college na principal nu name su che?
+    - aa college na principal nu nam su che?
+    - aa college na principal nu name su 6?
+    - a college na principal nu nam su 6?
+    - aa college ma principal kon 6?
+    - aa college ma principal kon che?
+    - college na principal nu nam su che?
+    - college na pirncipal nu name su 6?
+    - College na principal nu name su ?
+    - VGEC college na principal kon che?
+    - vgec college na principal kon che?
+    - vgec college ma principal kon 6?
+    - college na principal kon 6?
+    - College na principal kon che?
+    - nam su che aa college na principal nu?
+    - name su 6 aa college na principal nu?
+    - name su che a college na principal nu?
+    - nam su 6 a college na principal nu?
+    - mare aa college na principal nu name janvu che
+    - mare aa college na principal nu name janvu 6
+    - mare a college na principal nu nam janvu 6
+    - mre a college na principal nu nam janvu 6
+    - aa college na principal nu name jani saku?
+    - tamne aa college na principal nu name khbr che?
+    - tamne aa college na principal nu nam khbr 6?
+    - tmne a college na principal nu name khbr che?
+    - tmne a college na principal nu nam khbr 6?
+    - nam su 6 vgec college na principal nu?
+    - Name su che aa college na principal nu?
+    - College na principal nu name janavo
+    - college na principal nu nam batavo
+- intent: total_branches_en
+  examples: |
+    - How many branches are there in this college?
+    - how many branches r there in this college?
+    - how many branches are available in college?
+    - how many branches r available in college?
+    - how many branches are available in vgec college?
+    - how many branches r available in vgec college?
+    - can you please tell me total number of branches in this college?
+    - can u plz tell me total number of branches in this college?
+    - can you plz tell me total number of branches in this college?
+    - can you please tel me total number of branches in this college?
+    - can i know total umber of branches in this college?
+    - can i know totl number of branches in this college?
+    - totl number of branches in this college
+    - Total number of branches in this college
+    - In this college how many different branches are available?
+    - different branches available in this college
+    - in this college how many different branches r available?
+    - in this college how many different branches are there?
+    - In vgec how many branches are available?
+    - in vgec how many branches r available?
+- intent: total_branches_hi
+  examples: |
+    - Is college me total kitni branches hai?
+    - iss college me kool kitni branches hai?
+    - is college mai totl kitni branches hain?
+    - iss college me total kitni branches hain?
+    - college me total kitani branches hai?
+    - college me totl kitani branches hain?
+    - kitani total branches available hai?
+    - kitani totl branches available hain?
+    - kitni total branches available hai is college me?
+    - muje total kitni branches available hai iski jankari chahiye
+    - kya ap muje kul kitni branches hai is college me vo bata sakta hai?
+    - kya aap muje kool kitni branches hai is college me wo bata sakte hain?
+    - me jan sakta hu is college me kool kitni branches hai?
+    - me jan sakti hu is college me kul kitni branches hai?
+    - me janna chahta hu is college me kitni branches hai?
+    - kya aap muje total branches kitni hai is college me vo bata sakte hai?
+    - total kitni branches hai vo janna hai?
+    - total kitni branches hai is college me uski jankari chahiye
+    - totl kitni barnches hai iss college me uski jankari chahiye
+    - College me kitni branches hai?
+    - Kitni branches available hai?
+- intent: total_branches_gu
+  examples: |
+    - Aa college ma ketli branches che kool?
+    - a college ma ketli branches che kul?
+    - aa college ma ktli branches che kul?
+    - aa college ma ketli branches 6 total?
+    - a college ma ktli branches 6 kool?
+    - aa college ma ketli branches 6 kul?
+    - college ma total ketli branches 6?
+    - college ma kul ketli branches 6?
+    - college ma kool ketli branches che?
+    - college ma total ketli branches available che?
+    - College ma total ketli branches che?
+    - VGEC ma total ketli branches available che?
+    - vgec ma kool ketli branches availlable che?
+    - vgec ma totl ketli branches available 6?
+    - Aa college ma total ketli branches 6 e jani saku?
+    - a college ma kool ketli branches che e jani saku?
+    - Mare total branches ni jankari joie che
+    - mare kool ketli branches che aa college ma e janvu hatu
+    - mare total ketli branches che a college ma e janvu hatu
+    - mare total ketli branches 6 aa college ma e janvu 6
+    - Total ketli branches che aa college ma mare e janvu 6
+    - Total ketli branches 6 aa college ma mare e janvu 6
+    - kool ketli branches 6 aa college ma mare e janvu 6
+    - kul ketli branches che aa college ma mare e janvu 6

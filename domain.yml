@@ -95,6 +95,18 @@ intents:
     use_entities: true
 - bot_developers_gu:
     use_entities: true
+- name_of_principal_en:
+    use_entities: true
+- name_of_principal_hi:
+    use_entities: true
+- name_of_principal_gu:
+    use_entities: true
+- total_branches_en:
+    use_entities: true
+- total_branches_hi:
+    use_entities: true
+- total_branches_gu:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -188,6 +200,18 @@ responses:
   - text: Mein Prof. Uttam G. Chauhan sir ke maargadarshan mein Kishan Aghera, Jinesh Majithia, Hirva Mathiya, aur Yashvi Modi dvaara rasa chatbot framework ka upayog karake banaaya gaya tha.
   utter_bot_developers_gu:
   - text: Mane Prof. Uttam G. Chauhan sir na Maargdarshan hethal Kishan Aghera, Jinesh Majithia, Hirva Mathiya, ane Yashvi Modi dwara Rasa Chatbot Framework no upayog karine banavama avyo hato.
+  utter_name_of_principal_en:
+  - text: Answer to the name of the principal in English.
+  utter_name_of_principal_hi:
+  - text: Answer to the name of the principal in Hindi.
+  utter_name_of_principal_gu:
+  - text: Answer to the name of the principal in Gujarati.
+  utter_total_branches_en:
+  - text: Answer to total no. of branches in English.
+  utter_total_branches_hi:
+  - text: Answer to the total no. of branches in Hindi.
+  utter_total_branches_gu:
+  - text: Answer to the total no. of branches in Gujarati.
 actions: []
 forms: {}
 e2e_actions: []
