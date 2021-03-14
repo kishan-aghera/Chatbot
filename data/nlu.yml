@@ -8,15 +8,18 @@ nlu:
     - How to change name in the mark sheet?
     - How can I correct my name in marksheet?
     - The marksheet contains wrong name of me, what to do?
+    - My name in marksheet was written wrong, now what to do?
 - intent: paid_fees_in_wrong_category_en
   examples: |
     - I have paid fees in the wrong category. What to do?
     - I have paid fees in wrong category then how to refund the fees?
     - I paid my fees in different branch, what to do?
+    - at time of paying fees, I paid in different branch, what should I do?
 - intent: refund_fees_en
   examples: |
     - How do I process the refund of fees?
     - I have paid fees in wrong section then how to refund those fees?
+    - My money for fees were deducted twice, how to get refund?
 - intent: paid_less_fees_than_mentioned_en
   examples: |
     - I have paid lesser fees than mentioned, what to do now?
@@ -27,6 +30,7 @@ nlu:
 - intent: bonafide_apply_en
   examples: |
     - How do I apply for a bonafide?
+    - I want to apply for bonafide certificate, how can I do that?
 - intent: pay_fee_online_process_en
   examples: |
     - How to pay the fees online?
@@ -128,6 +132,7 @@ nlu:
     - muje detention ka time khtam ho gaya hai ab resume karne ki kya process hai?
     - mera detain ka period khatam ho chuka hai ab resume kaise karneka?
     - meri detention abhi khatam ho gayi he to ab me kya karu?
+    - meri detention khatam ho gya he, to ab me kya karu?
 - intent: name_correction_marksheet_hi
   examples: |
     - Muje mera name sahi karvana hai marksheet me to kaise kar sakte hai?
@@ -169,6 +174,7 @@ nlu:
     - Wrong section me fees pay kar di hai mene to refund ke kiye kya pocess karni padegi?
     - Dusre section me fees bhar di hai to refund kese mil sakta hai?
     - Mene fees dusri category me pay kar di hai to refund ke liye kya procedure follow karu?
+    - mane galti se alag branch me fees bhar di he, to ab me kya kar sakta hu?
 - intent: paid_fees_in_wrong_category_gu
   examples: |
     - Mara thi fees bhulthi biji category ma pay thai gai che to paisa pacha kai rite lai sakay?
@@ -523,3 +529,4 @@ nlu:
     - Total ketli branches 6 aa college ma mare e janvu 6
     - kool ketli branches 6 aa college ma mare e janvu 6
     - kul ketli branches che aa college ma mare e janvu 6
+    - apdi college ma ketli branches chhe?
