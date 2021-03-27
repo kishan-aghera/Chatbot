@@ -3,3 +3,5 @@ rasa.db
 rasa.db-shm
 rasa.db-wal
 *.tar.gz
+events.db-shm
+events.db-wal
