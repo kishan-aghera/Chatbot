@@ -15,25 +15,47 @@ nlu:
     - I have paid fees in wrong category then how to refund the fees?
     - I paid my fees in different branch, what to do?
     - at time of paying fees, I paid in different branch, what should I do?
+    - I was paying fees for GTU exam, but paid in VGEC term fee category, now what to do?
+    - I had to pay in non-tfws category but paid my fees in tfws category, what to do?
+    - I paid in tfws category instead of non-tfws category, now what to do?
+    - I paid in general account instead of term fees category, what to do?
 - intent: refund_fees_en
   examples: |
     - How do I process the refund of fees?
     - I have paid fees in wrong section then how to refund those fees?
     - My money for fees were deducted twice, how to get refund?
+    - I paid fees twice by mistake, how to get refund?
+    - My bank statement says that my fees were deducted twice, how to get refund for that?
+    - My account balance says that the amount for fees were debited twice, now what to do?
 - intent: paid_less_fees_than_mentioned_en
   examples: |
     - I have paid lesser fees than mentioned, what to do now?
+    - I paid less fees, what to do now?
+    - I paid less fees, what is the procedure to pay the remaining fees?
+    - For this sem, I paid less fee, now what to do?
+    - For GTU exam, I paid less fee, what to do now?
 - intent: entered_incorrect_information_while_paying_fees_en
   examples: |
     - I have entered incorrect enrollment no. while paying the fees, what to do now?
     - I have entered incorrect branch while paying the fees, what to do now?
+    - I had written wrong enrollment no while paying fees, now what to do?
+    - I had written wrong phone no while paying fees, what should I do now?
+    - I had written wrong email id while paying fees, what to do now?
+    - I had selected wrong branch, what to do?
 - intent: bonafide_apply_en
   examples: |
     - How do I apply for a bonafide?
     - I want to apply for bonafide certificate, how can I do that?
+    - I need to have bonafide certificate, how to apply for the same?
+    - For getting scholarship, I need bonafide, how to get it?
+    - I have to apply for bonafide certificate, how can I do that?
 - intent: pay_fee_online_process_en
   examples: |
     - How to pay the fees online?
+    - I need to pay fees online, how can I do that?
+    - How to pay online fees?
+    - What is the process for paying fees online?
+    - What is the procedure for the online payment of fees?
 - intent: get_duplicate_marksheet_process_en
   examples: |
     - What to do for the duplicate mark sheet?
@@ -43,6 +65,10 @@ nlu:
 - intent: admission_cancel_en
   examples: |
     - Cancellation of admission
+    - I want to cancel my admission, how should I do the same?
+    - I got admission in another college in reshuffling round, how to cancel my admission?
+    - I got admission in another college in online round, how to cancel my admission?
+    - I got admission in another college in offline round, how to cancel my admission?
 - intent: detention_after_process_en
   examples: |
     - The process for resuming the study after the detention period is over

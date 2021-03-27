@@ -1,0 +1,5 @@
+events.db
+rasa.db
+rasa.db-shm
+rasa.db-wal
+*.tar.gz
