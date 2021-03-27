@@ -34,6 +34,7 @@ nlu:
     - I paid less fees, what is the procedure to pay the remaining fees?
     - For this sem, I paid less fee, now what to do?
     - For GTU exam, I paid less fee, what to do now?
+    - I paid less fees, what to do?
 - intent: entered_incorrect_information_while_paying_fees_en
   examples: |
     - I have entered incorrect enrollment no. while paying the fees, what to do now?
@@ -69,6 +70,8 @@ nlu:
     - I got admission in another college in reshuffling round, how to cancel my admission?
     - I got admission in another college in online round, how to cancel my admission?
     - I got admission in another college in offline round, how to cancel my admission?
+    - I want to cancel my admission from vgec, what is the procedure for that?
+    - I want to cancel my admission in vgec, what is the process?
 - intent: detention_after_process_en
   examples: |
     - The process for resuming the study after the detention period is over
@@ -140,6 +143,7 @@ nlu:
     - muje admission cancel karana hai to vo kaise kar sakte hai?
     - maine vgec me admission liya tha ab muje cancel karna hai toh kaise karu?
     - muje admission cancel karna hai toh me kar sakta hu?
+    - Mujhe dusri college me admission mil gya he to ab mujhe vgec me se admission cancel karavana he, to ab me kya karu?
 - intent: admission_cancel_gu
   examples: |
     - mare admission cancel karvu che toh kai rite karvanu?
@@ -151,6 +155,7 @@ nlu:
     - mane vishwakarma ma admission lidhu che toh ene cancel karvu che toh thase?
     - agar mare admission cancel karvu hoy to kari shaku?
     - mare maru admission vgec ma thi cancel karavi nakhvu 6e to hu kai rite kari saku?
+    - Mare maru admission cancel karavu 6e to mare su karvu joie?
 - intent: detention_after_process_hi
   examples: |
     - mera detention period khatam ho chuka hai ab padai firse start karne ki process kya hai?
@@ -336,6 +341,7 @@ nlu:
     - bye bot
     - bye
     - Bot byeee
+    - Thank you
 - intent: greeting_bye_hi
   examples: |
     - milte hai fir apse
