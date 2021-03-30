@@ -204,3 +204,239 @@ rules:
   steps:
   - intent: total_branches_gu
   - action: utter_total_branches_gu
+- rule: List of Central Facilities in English
+  steps:
+  - intent: list_of_central_facilities_en
+  - action: utter_list_of_central_facilities_en
+- rule: List of Central Facilities in Hindi
+  steps:
+  - intent: list_of_central_facilities_hi
+  - action: utter_list_of_central_facilities_hi
+- rule: List of Central Facilities in Gujarati
+  steps:
+  - intent: list_of_central_facilities_gu
+  - action: utter_list_of_central_facilities_gu
+- rule: Faculty Contact for Scholarship Information in Gujarati
+  steps:
+  - intent: faculty_contact_for_scholarship_information_gu
+  - action: utter_faculty_contact_for_scholarship_information_gu
+- rule: Faculty Contact for Scholarship Information in Hindi
+  steps:
+  - intent: faculty_contact_for_scholarship_information_hi
+  - action: utter_faculty_contact_for_scholarship_information_hi
+- rule: Faculty Contact for Scholarship Information in English
+  steps:
+  - intent: faculty_contact_for_scholarship_information_en
+  - action: utter_faculty_contact_for_scholarship_information_en
+- rule: Medical Facilities in English
+  steps:
+  - intent: medical_facilities_en
+  - action: utter_medical_facilities_en
+- rule: Medical Facilities in Hindi
+  steps:
+  - intent: medical_facilities_hi
+  - action: utter_medical_facilities_hi
+- rule: Medical Facilities in Gujarati
+  steps:
+  - intent: medical_facilities_gu
+  - action: utter_medical_facilities_gu
+- rule: List of Faculty in Chemical Department in English
+  steps:
+  - intent: list_of_faculty_in_chemical_department_en
+  - action: utter_list_of_faculty_in_chemical_department_en
+- rule: List of Faculty in Chemical Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_chemical_department_hi
+  - action: utter_list_of_faculty_in_chemical_department_hi
+- rule: List of Faculty in Chemical Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_chemical_department_gu
+  - action: utter_list_of_faculty_in_chemical_department_gu
+- rule: List of Faculty in Civil Department in English
+  steps:
+  - intent: list_of_faculty_in_civil_department_en
+  - action: utter_list_of_faculty_in_civil_department_en
+- rule: List of Faculty in Civil Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_civil_department_hi
+  - action: utter_list_of_faculty_in_civil_department_hi
+- rule: List of Faculty in Civil Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_civil_department_gu
+  - action: utter_list_of_faculty_in_civil_department_gu
+- rule: List of Faculty in Computer Department in English
+  steps:
+  - intent: list_of_faculty_in_computer_department_en
+  - action: utter_list_of_faculty_in_computer_department_en
+- rule: List of Faculty in Computer Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_computer_department_hi
+  - action: utter_list_of_faculty_in_computer_department_hi
+- rule: List of Faculty in Computer Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_computer_department_gu
+  - action: utter_list_of_faculty_in_computer_department_gu
+- rule: List of Faculty in Electrical Department in English
+  steps:
+  - intent: list_of_faculty_in_electrical_department_en
+  - action: utter_list_of_faculty_in_electrical_department_en
+- rule: List of Faculty in Electrical Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_electrical_department_hi
+  - action: utter_list_of_faculty_in_electrical_department_hi
+- rule: List of Faculty in Electrical Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_electrical_department_gu
+  - action: utter_list_of_faculty_in_electrical_department_gu
+- rule: List of Faculty in EC Department in English
+  steps:
+  - intent: list_of_faculty_in_electronics_and_communication_department_en
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_en
+- rule: List of Faculty in EC Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_electronics_and_communication_department_hi
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_hi
+- rule: List of Faculty in EC Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_electronics_and_communication_department_gu
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_gu
+- rule: List of Faculty in IT Department in English
+  steps:
+  - intent: list_of_faculty_in_information_technology_department_en
+  - action: utter_list_of_faculty_in_information_technology_department_en
+- rule: List of Faculty in IT Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_information_technology_department_hi
+  - action: utter_list_of_faculty_in_information_technology_department_hi
+- rule: List of Faculty in IT Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_information_technology_department_gu
+  - action: utter_list_of_faculty_in_information_technology_department_gu
+- rule: List of Faculty in IC Department in English
+  steps:
+  - intent: list_of_faculty_in_instrumentation_and_control_department_en
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_en
+- rule: List of Faculty in IC Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_instrumentation_and_control_department_hi
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_hi
+- rule: List of Faculty in IC Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_instrumentation_and_control_department_gu
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_gu
+- rule: List of Faculty in Mechanical Department in English
+  steps:
+  - intent: list_of_faculty_in_mechanical_engineering_department_en
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_en
+- rule: List of Faculty in Mechanical Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_mechanical_engineering_department_hi
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_hi
+- rule: List of Faculty in Mechanical Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_mechanical_engineering_department_gu
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_gu
+- rule: List of Faculty in PE Department in English
+  steps:
+  - intent: list_of_faculty_in_power_electronics_department_en
+  - action: utter_list_of_faculty_in_power_electronics_department_en
+- rule: List of Faculty in PE Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_power_electronics_department_hi
+  - action: utter_list_of_faculty_in_power_electronics_department_hi
+- rule: List of Faculty in PE Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_power_electronics_department_gu
+  - action: utter_list_of_faculty_in_power_electronics_department_gu
+- rule: List of Faculty in Applied Mechanics Department in English
+  steps:
+  - intent: list_of_faculty_in_applied_mechanics_department_en
+  - action: utter_list_of_faculty_in_applied_mechanics_department_en
+- rule: List of Faculty in Applied Mechanics Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_applied_mechanics_department_hi
+  - action: utter_list_of_faculty_in_applied_mechanics_department_hi
+- rule: List of Faculty in Applied Mechanics Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_applied_mechanics_department_gu
+  - action: utter_list_of_faculty_in_applied_mechanics_department_gu
+- rule: List of Faculty in Science and Humanities Department in English
+  steps:
+  - intent: list_of_faculty_in_science_and_humanities_department_en
+  - action: utter_list_of_faculty_in_science_and_humanities_department_en
+- rule: List of Faculty in Science and Humanities Department in Hindi
+  steps:
+  - intent: list_of_faculty_in_science_and_humanities_department_hi
+  - action: utter_list_of_faculty_in_science_and_humanities_department_hi
+- rule: List of Branches in English
+  steps:
+  - intent: list_of_branches_en
+  - action: utter_list_of_branches_en
+- rule: List of Branches in Hindi
+  steps:
+  - intent: list_of_branches_hi
+  - action: utter_list_of_branches_hi
+- rule: List of Branches in Gujarati
+  steps:
+  - intent: list_of_branches_gu
+  - action: utter_list_of_branches_gu
+- rule: Hostel Facilities in English
+  steps:
+  - intent: hostel_facility_in_college_en
+  - action: utter_hostel_facility_in_college_en
+- rule: Hostel Facilities in Hindi
+  steps:
+  - intent: hostel_facility_in_college_hi
+  - action: utter_hostel_facility_in_college_hi
+- rule: Hostel Facilities in Gujarati
+  steps:
+  - intent: hostel_facility_in_college_gu
+  - action: utter_hostel_facility_in_college_gu
+- rule: Transportation Facilities in English
+  steps:
+  - intent: transportation_facility_in_college_en
+  - action: utter_transportation_facility_in_college_en
+- rule: Transportation Facilities in Hindi
+  steps:
+  - intent: transportation_facility_in_college_hi
+  - action: utter_transportation_facility_in_college_hi
+- rule: Transportation Facilities in Gujarati
+  steps:
+  - intent: transportation_facility_in_college_gu
+  - action: utter_transportation_facility_in_college_gu
+- rule: Mess Facilities in English
+  steps:
+  - intent: mess_facilities_in_college_en
+  - action: utter_mess_facilities_in_college_en
+- rule: Mess Facilities in Hindi
+  steps:
+  - intent: mess_facilities_in_college_hi
+  - action: utter_mess_facilities_in_college_hi
+- rule: Mess Facilities in Gujarati
+  steps:
+  - intent: mess_facilities_in_college_gu
+  - action: utter_mess_facilities_in_college_gu
+- rule: Library Facilities in English
+  steps:
+  - intent: library_facility_in_college_en
+  - action: utter_library_facility_in_college_en
+- rule: Library Facilities in Hindi
+  steps:
+  - intent: library_facility_in_college_hi
+  - action: utter_library_facility_in_college_hi
+- rule: Library Facilities in Gujarati
+  steps:
+  - intent: library_facility_in_college_gu
+  - action: utter_library_facility_in_college_gu
+- rule: Sports Facilities in English
+  steps:
+  - intent: sport_facility_in_college_en
+  - action: utter_sport_facility_in_college_en
+- rule: Sports Facilities in Hindi
+  steps:
+  - intent: sport_facility_in_college_hi
+  - action: utter_sport_facility_in_college_hi
+- rule: Sports Facilities in Gujarati
+  steps:
+  - intent: sport_facility_in_college_gu
+  - action: utter_sport_facility_in_college_gu

@@ -107,6 +107,130 @@ intents:
     use_entities: true
 - total_branches_gu:
     use_entities: true
+- list_of_central_facilities_en:
+    use_entities: true
+- list_of_faculty_in_civil_department_hi:
+    use_entities: true
+- medical_facilities_hi:
+    use_entities: true
+- faculty_contact_for_scholarship_information_hi:
+    use_entities: true
+- faculty_contact_for_scholarship_information_en:
+    use_entities: true
+- medical_facilities_gu:
+    use_entities: true
+- list_of_faculty_in_electrical_department_en:
+    use_entities: true
+- list_of_faculty_in_civil_department_gu:
+    use_entities: true
+- list_of_faculty_in_computer_department_hi:
+    use_entities: true
+- list_of_faculty_in_chemical_department_en:
+    use_entities: true
+- list_of_faculty_in_computer_department_en:
+    use_entities: true
+- list_of_faculty_in_electrical_department_gu:
+    use_entities: true
+- list_of_central_facilities_gu:
+    use_entities: true
+- medical_facilities_en:
+    use_entities: true
+- list_of_faculty_in_electrical_department_hi:
+    use_entities: true
+- list_of_faculty_in_computer_department_gu:
+    use_entities: true
+- list_of_central_facilities_hi:
+    use_entities: true
+- list_of_faculty_in_chemical_department_gu:
+    use_entities: true
+- faculty_contact_for_scholarship_information_gu:
+    use_entities: true
+- list_of_faculty_in_chemical_department_hi:
+    use_entities: true
+- list_of_faculty_in_civil_department_en:
+    use_entities: true
+- list_of_faculty_in_electronics_and_communication_department_gu:
+    use_entities: true
+- list_of_faculty_in_electronics_and_communication_department_hi:
+    use_entities: true
+- list_of_faculty_in_electronics_and_communication_department_en:
+    use_entities: true
+- list_of_faculty_in_information_technology_department_gu:
+    use_entities: true
+- list_of_faculty_in_information_technology_department_hi:
+    use_entities: true
+- list_of_faculty_in_information_technology_department_en:
+    use_entities: true
+- list_of_faculty_in_instrumentation_and_control_department_gu:
+    use_entities: true
+- list_of_faculty_in_instrumentation_and_control_department_hi:
+    use_entities: true
+- list_of_faculty_in_instrumentation_and_control_department_en:
+    use_entities: true
+- list_of_faculty_in_mechanical_engineering_department_gu:
+    use_entities: true
+- list_of_faculty_in_mechanical_engineering_department_hi:
+    use_entities: true
+- list_of_faculty_in_mechanical_engineering_department_en:
+    use_entities: true
+- list_of_faculty_in_power_electronics_department_gu:
+    use_entities: true
+- list_of_faculty_in_power_electronics_department_hi:
+    use_entities: true
+- list_of_faculty_in_power_electronics_department_en:
+    use_entities: true
+- list_of_faculty_in_applied_mechanics_department_gu:
+    use_entities: true
+- list_of_faculty_in_applied_mechanics_department_hi:
+    use_entities: true
+- list_of_faculty_in_applied_mechanics_department_en:
+    use_entities: true
+- list_of_faculty_in_science_and_humanities_department_gu:
+    use_entities: true
+- list_of_faculty_in_science_and_humanities_department_hi:
+    use_entities: true
+- list_of_faculty_in_science_and_humanities_department_en:
+    use_entities: true
+- list_of_branches_en:
+    use_entities: true
+- list_of_branches_hi:
+    use_entities: true
+- list_of_branches_gu:
+    use_entities: true
+- hostel_facility_in_college_en:
+    use_entities: true
+- hostel_facility_in_college_hi:
+    use_entities: true
+- hostel_facility_in_college_gu:
+    use_entities: true
+- transportation_facility_in_college_en:
+    use_entities: true
+- trasportation_facility_in_college_hi:
+    use_entities: true
+- trasportation_facility_in_college_gu:
+    use_entities: true
+- mess_facilities_in_college_en:
+    use_entities: true
+- mess_facilities_in_college_hi:
+    use_entities: true
+- mess_facilities_in_college_gu:
+    use_entities: true
+- library_facility_in_college_en:
+    use_entities: true
+- library_facility_in_college_hi:
+    use_entities: true
+- library_facility_in_college_gu:
+    use_entities: true
+- sport_facility_in_college_en:
+    use_entities: true
+- sport_facility_in_college_hi:
+    use_entities: true
+- sport_facility_in_college_gu:
+    use_entities: true
+- transportation_facility_in_college_hi:
+    use_entities: true
+- transportation_facility_in_college_gu:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -212,6 +336,126 @@ responses:
   - text: Answer to the total no. of branches in Hindi.
   utter_total_branches_gu:
   - text: Answer to the total no. of branches in Gujarati.
+  utter_list_of_central_facilities_en:
+  - text: Answer to list_of_central_facilities_en
+  utter_list_of_central_facilities_gu:
+  - text: Answer to list_of_central_facilities_gu
+  utter_list_of_central_facilities_hi:
+  - text: Answer to list_of_central_facilities_hi
+  utter_faculty_contact_for_scholarship_information_gu:
+  - text: Answer to faculty_contact_for_scholarship_information_gu
+  utter_faculty_contact_for_scholarship_information_hi:
+  - text: Answer to faculty_contact_for_scholarship_information_hi
+  utter_faculty_contact_for_scholarship_information_en:
+  - text: Answer to faculty_contact_for_scholarship_information_en
+  utter_medical_facilities_en:
+  - text: Answer to medical_facilities_en
+  utter_medical_facilities_hi:
+  - text: Answer to medical_facilities_hi
+  utter_medical_facilities_gu:
+  - text: Answer to medical_facilities_gu
+  utter_list_of_faculty_in_chemical_department_gu:
+  - text: Answer to list_of_faculty_in_chemical_department_gu
+  utter_list_of_faculty_in_chemical_department_hi:
+  - text: Answer to list_of_faculty_in_chemical_department_hi
+  utter_list_of_faculty_in_chemical_department_en:
+  - text: Answer to list_of_faculty_in_chemical_department_en
+  utter_list_of_faculty_in_civil_department_gu:
+  - text: Answer to list_of_faculty_in_civil_department_gu
+  utter_list_of_faculty_in_civil_department_hi:
+  - text: Answer to list_of_faculty_in_civil_department_hi
+  utter_list_of_faculty_in_civil_department_en:
+  - text: Answer to list_of_faculty_in_civil_department_en
+  utter_list_of_faculty_in_computer_department_gu:
+  - text: Answer to list_of_faculty_in_computer_department_gu
+  utter_list_of_faculty_in_computer_department_hi:
+  - text: Answer to list_of_faculty_in_computer_department_hi
+  utter_list_of_faculty_in_computer_department_en:
+  - text: Answer to list_of_faculty_in_computer_department_en
+  utter_list_of_faculty_in_electrical_department_gu:
+  - text: Answer to list_of_faculty_in_electrical_department_gu
+  utter_list_of_faculty_in_electrical_department_hi:
+  - text: Answer to list_of_faculty_in_electrical_department_hi
+  utter_list_of_faculty_in_electrical_department_en:
+  - text: Answer to list_of_faculty_in_electrical_department_en
+  utter_list_of_faculty_in_electronics_and_communication_department_gu:
+  - text: Answer to list_of_faculty_in_electronics_and_communication_department_gu
+  utter_list_of_faculty_in_electronics_and_communication_department_hi:
+  - text: Answer to list_of_faculty_in_electronics_and_communication_department_hi
+  utter_list_of_faculty_in_electronics_and_communication_department_en:
+  - text: Answer to list_of_faculty_in_electronics_and_communication_department_en
+  utter_list_of_faculty_in_information_technology_department_gu:
+  - text: Answer to list_of_faculty_in_information_technology_department_gu
+  utter_list_of_faculty_in_information_technology_department_hi:
+  - text: Answer to list_of_faculty_in_information_technology_department_hi
+  utter_list_of_faculty_in_information_technology_department_en:
+  - text: Answer to list_of_faculty_in_information_technology_department_en
+  utter_list_of_faculty_in_instrumentation_and_control_department_gu:
+  - text: Answer to list_of_faculty_in_instrumentation_and_control_department_gu
+  utter_list_of_faculty_in_instrumentation_and_control_department_hi:
+  - text: Answer to list_of_faculty_in_instrumentation_and_control_department_hi
+  utter_list_of_faculty_in_instrumentation_and_control_department_en:
+  - text: Answer to list_of_faculty_in_instrumentation_and_control_department_en
+  utter_list_of_faculty_in_mechanical_engineering_department_gu:
+  - text: Answer to list_of_faculty_in_mechanical_engineering_department_gu
+  utter_list_of_faculty_in_mechanical_engineering_department_hi:
+  - text: Answer to list_of_faculty_in_mechanical_engineering_department_hi
+  utter_list_of_faculty_in_mechanical_engineering_department_en:
+  - text: Answer to list_of_faculty_in_mechanical_engineering_department_en
+  utter_list_of_faculty_in_power_electronics_department_gu:
+  - text: Answer to list_of_faculty_in_power_electronics_department_gu
+  utter_list_of_faculty_in_power_electronics_department_hi:
+  - text: Answer to list_of_faculty_in_power_electronics_department_hi
+  utter_list_of_faculty_in_power_electronics_department_en:
+  - text: Answer to list_of_faculty_in_power_electronics_department_en
+  utter_list_of_faculty_in_applied_mechanics_department_gu:
+  - text: Answer to list_of_faculty_in_applied_mechanics_department_gu
+  utter_list_of_faculty_in_applied_mechanics_department_hi:
+  - text: Answer to list_of_faculty_in_applied_mechanics_department_hi
+  utter_list_of_faculty_in_applied_mechanics_department_en:
+  - text: Answer to list_of_faculty_in_applied_mechanics_department_en
+  utter_list_of_faculty_in_science_and_humanities_department_gu:
+  - text: Answer to list_of_faculty_in_science_and_humanities_department_gu
+  utter_list_of_faculty_in_science_and_humanities_department_hi:
+  - text: Answer to list_of_faculty_in_science_and_humanities_department_hi
+  utter_list_of_faculty_in_science_and_humanities_department_en:
+  - text: Answer to list_of_faculty_in_science_and_humanities_department_en
+  utter_list_of_branches_en:
+  - text: Answer to list_of_branches_en
+  utter_list_of_branches_hi:
+  - text: Answer to list_of_branches_hi
+  utter_list_of_branches_gu:
+  - text: Answer to list_of_branches_gu
+  utter_hostel_facility_in_college_en:
+  - text: Answer to hostel_facility_in_college_en
+  utter_hostel_facility_in_college_hi:
+  - text: Answer to hostel_facility_in_college_hi
+  utter_hostel_facility_in_college_gu:
+  - text: Answer to hostel_facility_in_college_gu
+  utter_transportation_facility_in_college_en:
+  - text: Answer to transportation_facility_in_college_en
+  utter_transportation_facility_in_college_hi:
+  - text: Answer to transportation_facility_in_college_hi
+  utter_transportation_facility_in_college_gu:
+  - text: Answer to transportation_facility_in_college_gu
+  utter_mess_facilities_in_college_en:
+  - text: Answer to mess_facilities_in_college_en
+  utter_mess_facilities_in_college_hi:
+  - text: Answer to mess_facilities_in_college_hi
+  utter_mess_facilities_in_college_gu:
+  - text: Answer to mess_facilities_in_college_gu
+  utter_library_facility_in_college_en:
+  - text: Answer to library_facility_in_college_en
+  utter_library_facility_in_college_hi:
+  - text: Answer to library_facility_in_college_hi
+  utter_library_facility_in_college_gu:
+  - text: Answer to library_facility_in_college_gu
+  utter_sport_facility_in_college_en:
+  - text: Answer to sport_facility_in_college_en
+  utter_sport_facility_in_college_hi:
+  - text: Answer to sport_facility_in_college_hi
+  utter_sport_facility_in_college_gu:
+  - text: Answer to sport_facility_in_college_gu
 actions: []
 forms: {}
 e2e_actions: []

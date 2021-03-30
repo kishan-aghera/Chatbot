@@ -300,3 +300,296 @@ stories:
     intent: get_scholarship_hi
   - action: utter_get_scholarship_hi
 
+- story: list of central facilities
+  steps:
+  - user: |
+      give the list of central facilities
+    intent: list_of_central_facilities_en
+  - action: utter_list_of_central_facilities_en
+
+- story: list of central facilities
+  steps:
+  - user: |
+      central facilities kai che list aapo
+    intent: list_of_central_facilities_gu
+  - action: utter_list_of_central_facilities_gu
+
+- story: list of central facilities
+  steps:
+  - user: |
+      college me central facilities konsi hai?
+    intent: list_of_central_facilities_hi
+  - action: utter_list_of_central_facilities_hi
+
+- story: faculty contact for scholarship information
+  steps:
+  - user: |
+      which faculty to contact for scholarship information
+    intent: faculty_contact_for_scholarship_information_en
+  - action: utter_faculty_contact_for_scholarship_information_en
+
+- story: faculty contact for scholarship information
+  steps:
+  - user: |
+      scholarship information mate kai faculty ne contact karvanu
+    intent: faculty_contact_for_scholarship_information_gu
+  - action: utter_faculty_contact_for_scholarship_information_gu
+
+- story: faculty contact for scholarship information
+  steps:
+  - user: |
+      scholarship information k liye konsi faculty ko sampark karne ka
+    intent: faculty_contact_for_scholarship_information_hi
+  - action: utter_faculty_contact_for_scholarship_information_hi
+
+- story: medical facilities
+  steps:
+  - user: |
+      what are the medical facilities available
+    intent: medical_facilities_en
+  - action: utter_medical_facilities_en
+
+- story: medical facilities
+  steps:
+  - user: |
+      kai medical facilities college ma male che
+    intent: medical_facilities_gu
+  - action: utter_medical_facilities_gu
+
+- story: medical facilities
+  steps:
+  - user: |
+      konsi medical facilities college me hai
+    intent: medical_facilities_hi
+  - action: utter_medical_facilities_hi
+
+- story: list of faculty in chemical department
+  steps:
+  - user: |
+      give me the list of faculty in chemical department
+    intent: list_of_faculty_in_chemical_department_en
+  - action: utter_list_of_faculty_in_chemical_department_en
+
+- story: list of faculty in chemical department
+  steps:
+  - user: |
+      chemical department ni faculty ni list aapo
+    intent: list_of_faculty_in_chemical_department_gu
+  - action: utter_list_of_faculty_in_chemical_department_gu
+
+- story: list of faculty in chemical department
+  steps:
+  - user: |
+      chemical department ki faculty ki list chahiye
+    intent: list_of_faculty_in_chemical_department_hi
+  - action: utter_list_of_faculty_in_chemical_department_hi
+
+- story: list of faculty in civil department
+  steps:
+  - user: |
+      give me the list of faculty in civil department
+    intent: list_of_faculty_in_civil_department_en
+  - action: utter_list_of_faculty_in_civil_department_en
+
+- story: list of faculty in civil department
+  steps:
+  - user: |
+      civil department ni faculty ni list aapo
+    intent: list_of_faculty_in_civil_department_gu
+  - action: utter_list_of_faculty_in_civil_department_gu
+
+- story: list of faculty in civil department
+  steps:
+  - user: |
+      civil department ki faculty ki list chahiye
+    intent: list_of_faculty_in_civil_department_hi
+  - action: utter_list_of_faculty_in_civil_department_hi
+
+- story: list of faculty in computer department
+  steps:
+  - user: |
+      give me the list of faculty in computer department
+    intent: list_of_faculty_in_computer_department_en
+  - action: utter_list_of_faculty_in_computer_department_en
+
+- story: list of faculty in computer department
+  steps:
+  - user: |
+      computer department ni faculty ni list aapo
+    intent: list_of_faculty_in_computer_department_gu
+  - action: utter_list_of_faculty_in_computer_department_gu
+
+- story: list of faculty in computer department
+  steps:
+  - user: |
+      computer department ki faculty ki list chahiye
+    intent: list_of_faculty_in_computer_department_hi
+  - action: utter_list_of_faculty_in_computer_department_hi
+
+- story: list of faculty in electrical department
+  steps:
+  - user: |
+      give me the list of faculty in electrical department
+    intent: list_of_faculty_in_electrical_department_en
+  - action: utter_list_of_faculty_in_electrical_department_en
+
+- story: list of faculty in electrical department
+  steps:
+  - user: |
+      electrical department ni faculty ni list aapo
+    intent: list_of_faculty_in_electrical_department_gu
+  - action: utter_list_of_faculty_in_electrical_department_gu
+
+- story: list of faculty in electrical department
+  steps:
+  - user: |
+      electrical department ki faculty ki list chahiye
+    intent: list_of_faculty_in_electrical_department_hi
+  - action: utter_list_of_faculty_in_electrical_department_hi
+
+- story: list of faculty in electronics and communication department
+  steps:
+  - user: |
+      give me the list of faculty in electronics and communication department
+    intent: list_of_faculty_in_electronics_and_communication_department_en
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_en
+
+- story: list of faculty in electronics and communication department
+  steps:
+  - user: |
+      electronics and communication department ni faculty ni list aapo
+    intent: list_of_faculty_in_electronics_and_communication_department_gu
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_gu
+
+- story: list of faculty in electronics and communication department
+  steps:
+  - user: |
+      electronics and communication department ki faculty ki list chahiye
+    intent: list_of_faculty_in_electronics_and_communication_department_hi
+  - action: utter_list_of_faculty_in_electronics_and_communication_department_hi
+
+- story: list of faculty in information technology department
+  steps:
+  - user: |
+      give me the list of faculty in information technology department
+    intent: list_of_faculty_in_information_technology_department_en
+  - action: utter_list_of_faculty_in_information_technology_department_en
+
+- story: list of faculty in information technology department
+  steps:
+  - user: |
+      information technology department ni faculty ni list aapo
+    intent: list_of_faculty_in_information_technology_department_gu
+  - action: utter_list_of_faculty_in_information_technology_department_gu
+
+- story: list of faculty in information technology department
+  steps:
+  - user: |
+      information technology department ki faculty ki list chahiye
+    intent: list_of_faculty_in_information_technology_department_hi
+  - action: utter_list_of_faculty_in_information_technology_department_hi
+
+- story: list of faculty in instrumentation and control department
+  steps:
+  - user: |
+      give me the list of faculty in instrumentation and control department
+    intent: list_of_faculty_in_instrumentation_and_control_department_en
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_en
+
+- story: list of faculty in instrumentation and control department
+  steps:
+  - user: |
+      instrumentation and control department ni faculty ni list aapo
+    intent: list_of_faculty_in_instrumentation_and_control_department_gu
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_gu
+
+- story: list of faculty in instrumentation and control department
+  steps:
+  - user: |
+      instrumentation and control department ki faculty ki list chahiye
+    intent: list_of_faculty_in_instrumentation_and_control_department_hi
+  - action: utter_list_of_faculty_in_instrumentation_and_control_department_hi
+
+- story: list of faculty in mechanical department
+  steps:
+  - user: |
+      give me the list of faculty in mechanical department
+    intent: list_of_faculty_in_mechanical_department_en
+  - action: utter_list_of_faculty_in_mechanical_department_en
+
+- story: list of faculty in mechanical department
+  steps:
+  - user: |
+      mechanical department ni faculty ni list aapo
+    intent: list_of_faculty_in_mechanical_department_gu
+  - action: utter_list_of_faculty_in_mechanical_department_gu
+
+- story: list of faculty in mechanical department
+  steps:
+  - user: |
+      mechanical department ki faculty ki list chahiye
+    intent: list_of_faculty_in_mechanical_department_hi
+  - action: utter_list_of_faculty_in_mechanical_department_hi
+
+- story: list of faculty in power electronics department
+  steps:
+  - user: |
+      give me the list of faculty in power electronics department
+    intent: list_of_faculty_in_power_electronics_department_en
+  - action: utter_list_of_faculty_in_power_electronics_department_en
+
+- story: list of faculty in power electronics department
+  steps:
+  - user: |
+      power electronics department ni faculty ni list aapo
+    intent: list_of_faculty_in_power_electronics_department_gu
+  - action: utter_list_of_faculty_in_power_electronics_department_gu
+
+- story: list of faculty in power electronics department
+  steps:
+  - user: |
+      power electronics department ki faculty ki list chahiye
+    intent: list_of_faculty_in_power_electronics_department_hi
+  - action: utter_list_of_faculty_in_power_electronics_department_hi
+
+- story: list of faculty in applied mechanics department
+  steps:
+  - user: |
+      give me the list of faculty in applied mechanics department
+    intent: list_of_faculty_in_applied_mechanics_department_en
+  - action: utter_list_of_faculty_in_applied_mechanics_department_en
+
+- story: list of faculty in applied mechanics department
+  steps:
+  - user: |
+      applied mechanics department ni faculty ni list aapo
+    intent: list_of_faculty_in_applied_mechanics_department_gu
+  - action: utter_list_of_faculty_in_applied_mechanics_department_gu
+
+- story: list of faculty in applied mechanics department
+  steps:
+  - user: |
+      applied mechanics department ki faculty ki list chahiye
+    intent: list_of_faculty_in_applied_mechanics_department_hi
+  - action: utter_list_of_faculty_in_applied_mechanics_department_hi
+
+- story: list of faculty in science and humanities department
+  steps:
+  - user: |
+      give me the list of faculty in science and humanities department
+    intent: list_of_faculty_in_science_and_humanities_department_en
+  - action: utter_list_of_faculty_in_science_and_humanities_department_en
+
+- story: list of faculty in science and humanities department
+  steps:
+  - user: |
+      science and humanities department ni faculty ni list aapo
+    intent: list_of_faculty_in_science_and_humanities_department_gu
+  - action: utter_list_of_faculty_in_science_and_humanities_department_gu
+
+- story: list of faculty in science and humanities department
+  steps:
+  - user: |
+      science and humanities department ki faculty ki list chahiye
+    intent: list_of_faculty_in_science_and_humanities_department_hi
+  - action: utter_list_of_faculty_in_science_and_humanities_department_hi
