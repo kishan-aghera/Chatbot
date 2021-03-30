@@ -19,7 +19,7 @@ message = ""
 # translator = Translator(to_lang='hi')
 # translation = translator.translate("hello")
 
-r = requests.post('http://localhost:5002/webhooks/rest/webhook', json={"message": "Cancellation of admission"})
+r = requests.post('http://localhost:5002/webhooks/rest/webhook', json={"message": "Hello"})
 
 print("Bot says, ", end=' ')
 for i in r.json():
