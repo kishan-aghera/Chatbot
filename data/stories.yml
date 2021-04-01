@@ -16,3 +16,7 @@ stories:
   steps:
   - intent: admission_cancel_hi
   - action: utter_admission_cancel_hi
+- story: Story list of faculty in science and humanities department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_science_and_humanities_department_gu
+  - action: utter_list_of_faculty_in_science_and_humanities_department_gu

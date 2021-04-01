@@ -1,6 +1,1 @@
-version: "2.0"
-stories:
-- story: list of faculty in science and humanities department (C:\Users\Kishan\AppData\Local\Temp\tmpxf8jj3dd\8192f37746664408bd43d8a5468016bd_test_stories.yml)
-  steps:
-  - intent: list_of_faculty_in_science_and_humanities_department_gu
-  - action: utter_list_of_faculty_in_science_and_humanities_department_gu  # predicted: utter_admission_cancel_gu
+# None of the test stories failed - all good!

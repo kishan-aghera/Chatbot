@@ -440,3 +440,7 @@ rules:
   steps:
   - intent: sport_facility_in_college_gu
   - action: utter_sport_facility_in_college_gu
+- rule: List of Faculty in Science and Humanities Department in Gujarati
+  steps:
+  - intent: list_of_faculty_in_science_and_humanities_department_gu
+  - action: utter_list_of_faculty_in_science_and_humanities_department_gu
