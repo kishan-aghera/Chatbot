@@ -514,22 +514,22 @@ stories:
   steps:
   - user: |
       give me the list of faculty in mechanical department
-    intent: list_of_faculty_in_mechanical_department_en
-  - action: utter_list_of_faculty_in_mechanical_department_en
+    intent: list_of_faculty_in_mechanical_engineering_department_en
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_en
 
 - story: list of faculty in mechanical department
   steps:
   - user: |
       mechanical department ni faculty ni list aapo
-    intent: list_of_faculty_in_mechanical_department_gu
-  - action: utter_list_of_faculty_in_mechanical_department_gu
+    intent: list_of_faculty_in_mechanical_engineering_department_gu
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_gu
 
 - story: list of faculty in mechanical department
   steps:
   - user: |
       mechanical department ki faculty ki list chahiye
-    intent: list_of_faculty_in_mechanical_department_hi
-  - action: utter_list_of_faculty_in_mechanical_department_hi
+    intent: list_of_faculty_in_mechanical_engineering_department_hi
+  - action: utter_list_of_faculty_in_mechanical_engineering_department_hi
 
 - story: list of faculty in power electronics department
   steps:

@@ -1,18 +1,6 @@
 version: "2.0"
 stories:
-- story: list of faculty in mechanical department (C:\Users\Kishan\AppData\Local\Temp\tmpwbpgp3l1\3c84752519ec4825b82dd458a8752575_test_stories.yml)
-  steps:
-  - intent: list_of_faculty_in_mechanical_department_en  # predicted: list_of_faculty_in_mechanical_engineering_department_en: give me the list of faculty in mechanical department
-  - action: utter_list_of_faculty_in_mechanical_department_en  # predicted: action_default_fallback
-- story: list of faculty in mechanical department (C:\Users\Kishan\AppData\Local\Temp\tmpwbpgp3l1\3c84752519ec4825b82dd458a8752575_test_stories.yml)
-  steps:
-  - intent: list_of_faculty_in_mechanical_department_gu  # predicted: list_of_faculty_in_mechanical_engineering_department_gu: mechanical department ni faculty ni list aapo
-  - action: utter_list_of_faculty_in_mechanical_department_gu  # predicted: action_default_fallback
-- story: list of faculty in mechanical department (C:\Users\Kishan\AppData\Local\Temp\tmpwbpgp3l1\3c84752519ec4825b82dd458a8752575_test_stories.yml)
-  steps:
-  - intent: list_of_faculty_in_mechanical_department_hi  # predicted: list_of_faculty_in_mechanical_engineering_department_hi: mechanical department ki faculty ki list chahiye
-  - action: utter_list_of_faculty_in_mechanical_department_hi  # predicted: action_default_fallback
-- story: list of faculty in science and humanities department (C:\Users\Kishan\AppData\Local\Temp\tmpwbpgp3l1\3c84752519ec4825b82dd458a8752575_test_stories.yml)
+- story: list of faculty in science and humanities department (C:\Users\Kishan\AppData\Local\Temp\tmpxf8jj3dd\8192f37746664408bd43d8a5468016bd_test_stories.yml)
   steps:
   - intent: list_of_faculty_in_science_and_humanities_department_gu
-  - action: utter_list_of_faculty_in_science_and_humanities_department_gu  # predicted: utter_admission_cancel_en
+  - action: utter_list_of_faculty_in_science_and_humanities_department_gu  # predicted: utter_admission_cancel_gu

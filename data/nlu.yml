@@ -652,6 +652,7 @@ nlu:
     - skalarship na prasno mate koni sathe mare samparka karavano?
     - skalarship prasno mate mare samparka karavo che?
     - mane skalarship prasno mate kaya block ma javnau college ma?
+    - scholarship information mate kai faculty ne contact karvanu
 - intent: faculty_contact_for_scholarship_information_hi
   examples: |
     - scholarship ke liye kisko puchne ka?
@@ -1411,6 +1412,7 @@ nlu:
     - science and humanities department ni list apo.
     - science and humanities department faculty ni list apo.
     - mane science and humanities enginering ni list shu che?
+    - science and humanities department ni faculty ni list aapo
 - intent: list_of_faculty_in_science_and_humanities_department_hi
   examples: |
     - science and humanities department ke faculty kon hai?
