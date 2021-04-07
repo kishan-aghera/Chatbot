@@ -237,9 +237,9 @@ responses:
   utter_get_scholarship_en:
   - text: Please follow the given link to get directed to the student section. Link: http://vgecg.ac.in/student_section.php.
   utter_admission_cancel_en:
-  - text: Answer to admission cancel in English.
+  - text: Admission process to all UG programs is carried out by the state level Admission Committee for Professional Courses (ACPC). For more details, visit ACPC website www.jacpcldce.ac.in/be.asp
   utter_bonafide_apply_en:
-  - text: Answer to how to apply for a bonafide certificate in English.
+  - text: To apply for bonafide certificate, login through sts portal and apply with the required documents. Link: https://www.vgecg.ac.in/sts_login.php
   utter_detention_after_process_en:
   - text: Answer to process after detention in English.
   utter_entered_incorrect_information_while_paying_fees_en:
@@ -257,17 +257,17 @@ responses:
   utter_refund_fees_en:
   - text: Answer to refund fees in English.
   utter_get_scholarship_hi:
-  - text: Scholarship kese mile uska jawab. स्कोलशीप केसे मीले उस्का जवाब.
+  - text: Scholarship ke liye di gayi link par click kare jo aapko student section par le jayegi. Link: http://vgecg.ac.in/student_section.php.
   utter_get_scholarship_gu:
-  - text: Scholarship kai rite male eno jawab. સ્કોલરશીપ કઈ રીતે મલે એનો જવાબ.
+  - text: Scholarship maate aapeli link par click karo je tamne student section par lai jashe.  Link: http://vgecg.ac.in/student_section.php.
   utter_admission_cancel_hi:
-  - text: Answer to admission cancel in Hindi.
+  - text: Admission process ki koi bhi seva state level Admission Committee for Professional Courses (ACPC) se hogi. jyada jankari ke liye, visit ACPC website www.jacpcldce.ac.in/be.asp
   utter_admission_cancel_gu:
-  - text: Answer to admission cancel in Gujarati.
+  - text: Admission process ni koi pa seva state level Admission Committee for Professional Courses (ACPC) thi thashe. vadhare jankari mate, visit ACPC website www.jacpcldce.ac.in/be.asp
   utter_bonafide_apply_hi:
-  - text: Answer to how to apply for a bonafide certificate in Hindi.
+  - text: Bonafide certificate ke liye, sts portal se login kare aur mange hue documents online submit kare. Link: https://www.vgecg.ac.in/sts_login.php
   utter_bonafide_apply_gu:
-  - text: Answer to how to apply for a bonafide certificate in Gujarati.
+  - text: Bonafide  certificate mate, sts portal thi login karo ane mangela documents online submit karo. Link: https://www.vgecg.ac.in/sts_login.php
   utter_detention_after_process_hi:
   - text: Answer to process after detention in Hindi.
   utter_detention_after_process_gu:
