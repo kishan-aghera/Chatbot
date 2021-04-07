@@ -235,7 +235,7 @@ entities: []
 slots: {}
 responses:
   utter_get_scholarship_en:
-  - text: Answer to get a scholarship in English.
+  - text: Please follow the given link to get directed to the student section. Link: http://vgecg.ac.in/student_section.php.
   utter_admission_cancel_en:
   - text: Answer to admission cancel in English.
   utter_bonafide_apply_en:
