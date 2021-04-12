@@ -1488,6 +1488,7 @@ nlu:
     - Please tell me list of branches available in vgec campus.
     - Plz tel me list of branches in vgec college
     - Plz tel me list of branches in vgec campus.
+    - List branches in my college
 - intent: list_of_branches_hi
   examples: |
     - kya me branches ka list jan sakta hu?
