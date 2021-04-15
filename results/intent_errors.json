@@ -1,10 +1,210 @@
 [
   {
+    "text": "How can I correct my name in marksheet?",
+    "intent": "name_correction_marksheet_en",
+    "intent_prediction": {
+      "name": "name_correction_marksheet_gu",
+      "confidence": 0.694209098815918
+    }
+  },
+  {
+    "text": "My account balance says that the amount for fees were debited twice, now what to do?",
+    "intent": "refund_fees_en",
+    "intent_prediction": {
+      "name": "pay_fee_online_process_en",
+      "confidence": 0.3505149781703949
+    }
+  },
+  {
+    "text": "Name no spelling wrong che to kai rite correct karavi sakay?",
+    "intent": "name_correction_marksheet_gu",
+    "intent_prediction": {
+      "name": "list_of_branches_gu",
+      "confidence": 0.7558570504188538
+    }
+  },
+  {
+    "text": "Name na spelling ma mistake hoy to correct karavani procedure su che?",
+    "intent": "name_correction_marksheet_gu",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_electrical_department_gu",
+      "confidence": 0.36547017097473145
+    }
+  },
+  {
+    "text": "mane galti se alag branch me fees bhar di he, to ab me kya kar sakta hu?",
+    "intent": "paid_fees_in_wrong_category_hi",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_science_and_humanities_department_gu",
+      "confidence": 0.4643136262893677
+    }
+  },
+  {
+    "text": "Mara thi fees by mistake wrong category ma pay thai gai che to refund mate ni process su che?",
+    "intent": "paid_fees_in_wrong_category_gu",
+    "intent_prediction": {
+      "name": "refund_fees_gu",
+      "confidence": 0.9387696385383606
+    }
+  },
+  {
+    "text": "Fees wrong category me fill ho gai ho to refund lene ki kya procedure hoti hai?",
+    "intent": "refund_fees_hi",
+    "intent_prediction": {
+      "name": "paid_fees_in_wrong_category_hi",
+      "confidence": 0.8200132250785828
+    }
+  },
+  {
+    "text": "Agar fees bhulthi wrong category ma pay thai hoy to refund mate ni process su che?",
+    "intent": "refund_fees_gu",
+    "intent_prediction": {
+      "name": "paid_fees_in_wrong_category_gu",
+      "confidence": 0.9195914268493652
+    }
+  },
+  {
     "text": "How do I process the refund of fees?",
     "intent": "refund_fees_en",
     "intent_prediction": {
       "name": "refund_fees_gu",
-      "confidence": 0.4463258683681488
+      "confidence": 0.5278761386871338
+    }
+  },
+  {
+    "text": "mari 8th sem ni fee bharta samaye me bhulti judi category ma bhari didhi 6e to have?",
+    "intent": "paid_fees_in_wrong_category_gu",
+    "intent_prediction": {
+      "name": "entered_incorrect_information_while_paying_fees_gu",
+      "confidence": 0.42632851004600525
+    }
+  },
+  {
+    "text": "Agar fees galti se wrong category me pay gai ho to refund ke liye kese apply kar sakte hai?",
+    "intent": "refund_fees_hi",
+    "intent_prediction": {
+      "name": "paid_fees_in_wrong_category_hi",
+      "confidence": 0.6980918049812317
+    }
+  },
+  {
+    "text": "mare gai kale detention pati gyu 6e to have mare su karvanu?",
+    "intent": "detention_after_process_gu",
+    "intent_prediction": {
+      "name": "trasportation_facility_in_college_gu",
+      "confidence": 0.42556700110435486
+    }
+  },
+  {
+    "text": "Thank you",
+    "intent": "greeting_bye_en",
+    "intent_prediction": {
+      "name": "sport_facility_in_college_hi",
+      "confidence": 0.3830218017101288
+    }
+  },
+  {
+    "text": "Aa college ma jetli pn branch che mare anu list joie che",
+    "intent": "list_of_branches_gu",
+    "intent_prediction": {
+      "name": "total_branches_gu",
+      "confidence": 0.8415007591247559
+    }
+  },
+  {
+    "text": "College ma jetli pn branches available che mare enu list joie che.",
+    "intent": "list_of_branches_gu",
+    "intent_prediction": {
+      "name": "total_branches_gu",
+      "confidence": 0.9657275080680847
+    }
+  },
+  {
+    "text": "I paid my fees in different branch, what to do?",
+    "intent": "paid_fees_in_wrong_category_en",
+    "intent_prediction": {
+      "name": "pay_fee_online_process_hi",
+      "confidence": 0.27181240916252136
+    }
+  },
+  {
+    "text": "I had selected wrong branch, what to do?",
+    "intent": "entered_incorrect_information_while_paying_fees_en",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_power_electronics_department_hi",
+      "confidence": 0.46298477053642273
+    }
+  },
+  {
+    "text": "muje duplicate marksheet karvani che to uski process kya hai?",
+    "intent": "get_duplicate_marksheet_process_hi",
+    "intent_prediction": {
+      "name": "get_duplicate_marksheet_process_gu",
+      "confidence": 0.8793155550956726
+    }
+  },
+  {
+    "text": "marksheet ni biji copy ni process shu che?",
+    "intent": "get_duplicate_marksheet_process_gu",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_chemical_department_en",
+      "confidence": 0.3457920551300049
+    }
+  },
+  {
+    "text": "mare mari marksheet ma name badlavvanu chhe to hu su kari saku k jethi maru name badli jaay",
+    "intent": "name_correction_marksheet_gu",
+    "intent_prediction": {
+      "name": "name_correction_marksheet_hi",
+      "confidence": 0.33920401334762573
+    }
+  },
+  {
+    "text": "Fees biji category ma pay thai gai hoy to refund leva ni procdure su che?",
+    "intent": "paid_fees_in_wrong_category_gu",
+    "intent_prediction": {
+      "name": "refund_fees_gu",
+      "confidence": 0.9929714798927307
+    }
+  },
+  {
+    "text": "maru detain nu pati gayu che resume karvani ni shu process che?",
+    "intent": "detention_after_process_gu",
+    "intent_prediction": {
+      "name": "list_of_central_facilities_gu",
+      "confidence": 0.6590625643730164
+    }
+  },
+  {
+    "text": "How are you?",
+    "intent": "greeting_hello_en",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_civil_department_en",
+      "confidence": 0.31240519881248474
+    }
+  },
+  {
+    "text": "Mare total branches ni jankari joie che",
+    "intent": "total_branches_gu",
+    "intent_prediction": {
+      "name": "list_of_branches_gu",
+      "confidence": 0.9975404143333435
+    }
+  },
+  {
+    "text": "mane college ni list aapo ne?",
+    "intent": "list_of_central_facilities_gu",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_chemical_department_gu",
+      "confidence": 0.5161733031272888
+    }
+  },
+  {
+    "text": "The marksheet contains wrong name of me, what to do?",
+    "intent": "name_correction_marksheet_en",
+    "intent_prediction": {
+      "name": "name_of_principal_en",
+      "confidence": 0.44836077094078064
     }
   },
   {
@@ -12,15 +212,103 @@
     "intent": "refund_fees_en",
     "intent_prediction": {
       "name": "paid_fees_in_wrong_category_en",
-      "confidence": 0.5275222063064575
+      "confidence": 0.9427371621131897
     }
   },
   {
-    "text": "My money for fees were deducted twice, how to get refund?",
-    "intent": "refund_fees_en",
+    "text": "What is the procedure for the online payment of fees?",
+    "intent": "pay_fee_online_process_en",
     "intent_prediction": {
-      "name": "detention_after_process_en",
-      "confidence": 0.3881930708885193
+      "name": "mess_facilities_in_college_hi",
+      "confidence": 0.7502898573875427
+    }
+  },
+  {
+    "text": "Scholarship mate kai rite apply karu?",
+    "intent": "get_scholarship_gu",
+    "intent_prediction": {
+      "name": "faculty_contact_for_scholarship_information_gu",
+      "confidence": 0.9322167038917542
+    }
+  },
+  {
+    "text": "Mujse by mistake fees wrong category me pay ho gai hai to muje refund ke liye kya process karni padegi?",
+    "intent": "paid_fees_in_wrong_category_hi",
+    "intent_prediction": {
+      "name": "refund_fees_hi",
+      "confidence": 0.5150988698005676
+    }
+  },
+  {
+    "text": "hu detain thai chu to pachu resume karvu che toh eni procedure shu che?",
+    "intent": "detention_after_process_gu",
+    "intent_prediction": {
+      "name": "faculty_contact_for_scholarship_information_gu",
+      "confidence": 0.38146713376045227
+    }
+  },
+  {
+    "text": "scholarship ke questions kis faculty ko puchna hai?",
+    "intent": "faculty_contact_for_scholarship_information_hi",
+    "intent_prediction": {
+      "name": "faculty_contact_for_scholarship_information_en",
+      "confidence": 0.6208688020706177
+    }
+  },
+  {
+    "text": "I have paid fees in wrong category then how to refund the fees?",
+    "intent": "paid_fees_in_wrong_category_en",
+    "intent_prediction": {
+      "name": "refund_fees_en",
+      "confidence": 0.910494327545166
+    }
+  },
+  {
+    "text": "For getting scholarship, I need bonafide, how to get it?",
+    "intent": "bonafide_apply_en",
+    "intent_prediction": {
+      "name": "list_of_faculty_in_applied_mechanics_department_en",
+      "confidence": 0.3887898623943329
+    }
+  },
+  {
+    "text": "Cancellation of admission",
+    "intent": "admission_cancel_en",
+    "intent_prediction": {
+      "name": "admission_cancel_gu",
+      "confidence": 0.9233097434043884
+    }
+  },
+  {
+    "text": "Mujhe dusri college me admission mil gya he to ab mujhe vgec me se admission cancel karavana he, to ab me kya karu?",
+    "intent": "admission_cancel_hi",
+    "intent_prediction": {
+      "name": "admission_cancel_gu",
+      "confidence": 0.9764525890350342
+    }
+  },
+  {
+    "text": "Name coreect karvane ki process kya hai?",
+    "intent": "name_correction_marksheet_hi",
+    "intent_prediction": {
+      "name": "trasportation_facility_in_college_hi",
+      "confidence": 0.526674211025238
+    }
+  },
+  {
+    "text": "Mene galti se fees wrong category me bhar di hai to kya karu me ab?",
+    "intent": "paid_fees_in_wrong_category_hi",
+    "intent_prediction": {
+      "name": "paid_fees_in_wrong_category_gu",
+      "confidence": 0.553706169128418
+    }
+  },
+  {
+    "text": "Refund lene ki kya procedure hai?",
+    "intent": "refund_fees_hi",
+    "intent_prediction": {
+      "name": "sport_facility_in_college_hi",
+      "confidence": 0.405640572309494
     }
   },
   {
@@ -28,7 +316,31 @@
     "intent": "refund_fees_gu",
     "intent_prediction": {
       "name": "paid_fees_in_wrong_category_gu",
-      "confidence": 0.5087440013885498
+      "confidence": 0.9898200631141663
+    }
+  },
+  {
+    "text": "different branches available in this college",
+    "intent": "total_branches_en",
+    "intent_prediction": {
+      "name": "list_of_branches_en",
+      "confidence": 0.930497944355011
+    }
+  },
+  {
+    "text": "alag alag scholarship ke liye conatacts kya hai?",
+    "intent": "faculty_contact_for_scholarship_information_hi",
+    "intent_prediction": {
+      "name": "paid_fees_in_wrong_category_hi",
+      "confidence": 0.9607712626457214
+    }
+  },
+  {
+    "text": "konse din suvidhaye milti hai?",
+    "intent": "medical_facilities_hi",
+    "intent_prediction": {
+      "name": "list_of_central_facilities_hi",
+      "confidence": 0.7630532383918762
     }
   }
 ]

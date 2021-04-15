@@ -189,6 +189,10 @@ nlu:
     - mare marksheet ma naam change karavanu 6e because naam khotu lakhelu avyu 6e pelethi, to mare have su karvu joie?
     - mare mari marksheet ma name badlavvanu chhe to hu su kari saku k jethi maru name badli jaay
     - maru name khotu avyu 6e marksheet ma to have hu su karu??
+    - Mare marksheet ma naam badalvu chhe to su karvu padse?
+    - Mare marksheet ma naam change karavu chhe, to su karvu padse?
+    - Mare mari marksheet ma naam badalvanu chhe to su karvu padse?
+    - Mare marksheet ma maru naam badalvanu chhe, to su karvanu?
 - intent: paid_fees_in_wrong_category_hi
   examples: |
     - Mere se fees galat category me pay ho gai hai to ab me kya karu?
@@ -535,6 +539,9 @@ nlu:
     - totl kitni barnches hai iss college me uski jankari chahiye
     - College me kitni branches hai?
     - Kitni branches available hai?
+    - Mujhe vgec me kitne branches he uski jaankari chaie.
+    - Mujhe vgec me kitni branches he uskki jaankari chaie
+    - Mujhe vgec me kitni branches he uski jaankari chaie.
 - intent: total_branches_gu
   examples: |
     - Aa college ma ketli branches che kool?
@@ -695,6 +702,8 @@ nlu:
     - maid id to contact faculty for scholarship queries
     - for different types of scolarship whom to contact?
     - for different categories of scholarship whom to contact?
+    - I need to know about scholarship, whom should I contact?
+    - I want to know about scholarship, whom should I contact?
 - intent: medical_facilities_en
   examples: |
     - what are the medical facility available in vgec
