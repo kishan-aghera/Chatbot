@@ -245,7 +245,7 @@ responses:
   utter_entered_incorrect_information_while_paying_fees_en:
   - text: Answer to entered incorrect information while paying fees in English.
   utter_get_duplicate_marksheet_process_en:
-  - text: Answer to process for getting duplicating marksheet in English.
+  - text: To get duplicate marksheet, submit the form with required documents on this site. https://www.gtu.ac.in/StuMarksheet.aspx
   utter_name_correction_marksheet_en:
   - text: Answer to name correction in marksheet in English.
   utter_paid_fees_in_wrong_category_en:
@@ -277,9 +277,9 @@ responses:
   utter_entered_incorrect_information_while_paying_fees_gu:
   - text: Answer to entered incorrect information while paying fees in Gujarati.
   utter_get_duplicate_marksheet_process_hi:
-  - text: Answer to process for getting duplicating marksheet in Hindi.
+  - text: Duplicate marksheet le liye, iss website par mange hue documents ke sath form bhare. https://www.gtu.ac.in/StuMarksheet.aspx
   utter_get_duplicate_marksheet_process_gu:
-  - text: Answer to process for getting duplicating marksheet in Gujarati.
+  - text: Duplicate marksheet na mate, aa website par mangela documents sathe form submit karo. https://www.gtu.ac.in/StuMarksheet.aspx
   utter_name_correction_marksheet_hi:
   - text: Answer to name correction in marksheet in Hindi.
   utter_name_correction_marksheet_gu:
@@ -325,29 +325,29 @@ responses:
   utter_bot_developers_gu:
   - text: Mane Prof. Uttam G. Chauhan sir na Maargdarshan hethal Kishan Aghera, Jinesh Majithia, Hirva Mathiya, ane Yashvi Modi dwara Rasa Chatbot Framework no upayog karine banavama avyo hato.
   utter_name_of_principal_en:
-  - text: Answer to the name of the principal in English.
+  - text: The principal of v g e c is Dr. Nilay N. Bhuptani.
   utter_name_of_principal_hi:
-  - text: Answer to the name of the principal in Hindi.
+  - text: v g e c ke principal ka naam hai Dr. Nilay N. Bhuptani.
   utter_name_of_principal_gu:
-  - text: Answer to the name of the principal in Gujarati.
+  - text: v g e c na principal nu naam che Dr. Nilay N. Bhuptani.
   utter_total_branches_en:
-  - text: Answer to total no. of branches in English.
+  - text: There are 11 branches in v g e c.
   utter_total_branches_hi:
-  - text: Answer to the total no. of branches in Hindi.
+  - text: v g e c mei 11 branches hai.
   utter_total_branches_gu:
-  - text: Answer to the total no. of branches in Gujarati.
+  - text: v g e c ma 11 branches che.
   utter_list_of_central_facilities_en:
-  - text: Answer to list_of_central_facilities_en
+  - text: Central Facilities are, placement cell, Vishveshvariya Auditorium - A block , Chanakya Hall - A block, Homi Bhabha Seminar Hall - J205, Dr. Vikram Sarabhai Seminar Hall - L102, Computer Center - D100, Workshop, Language Laboratory, High Performance Computing Facility (Under Scheme of Assistance for incubators & start-ups, IT/ITes).
   utter_list_of_central_facilities_gu:
-  - text: Answer to list_of_central_facilities_gu
+  - text: Central Facilities che, placement cell, Vishveshvariya Auditorium - A block , Chanakya Hall - A block, Homi Bhabha Seminar Hall - J205, Dr. Vikram Sarabhai Seminar Hall - L102, Computer Center - D100, Workshop, Language Laboratory, High Performance Computing Facility (Under Scheme of Assistance for incubators & start-ups, IT/ITes).
   utter_list_of_central_facilities_hi:
-  - text: Answer to list_of_central_facilities_hi
+  - text: Central Facilities hai, placement cell, Vishveshvariya Auditorium - A block , Chanakya Hall - A block, Homi Bhabha Seminar Hall - J205, Dr. Vikram Sarabhai Seminar Hall - L102, Computer Center - D100, Workshop, Language Laboratory, High Performance Computing Facility (Under Scheme of Assistance for incubators & start-ups, IT/ITes).
   utter_faculty_contact_for_scholarship_information_gu:
-  - text: Answer to faculty_contact_for_scholarship_information_gu
+  - text: Scholarship maate aapeli link par click karo je tamne student section par lai jashe.  Please check the provided link. http://vgecg.ac.in/student_section.php.
   utter_faculty_contact_for_scholarship_information_hi:
-  - text: Answer to faculty_contact_for_scholarship_information_hi
+  - text: Scholarship ke liye di gayi link par click kare jo aapko student section par le jayegi. Please check the provided link. http://vgecg.ac.in/student_section.php.
   utter_faculty_contact_for_scholarship_information_en:
-  - text: Answer to faculty_contact_for_scholarship_information_en
+  - text: Please follow the given link to get directed to the student section. Please check the provided link. http://vgecg.ac.in/student_section.php.
   utter_medical_facilities_en:
   - text: Answer to medical_facilities_en
   utter_medical_facilities_hi:
@@ -427,17 +427,17 @@ responses:
   utter_list_of_branches_gu:
   - text: Answer to list_of_branches_gu
   utter_hostel_facility_in_college_en:
-  - text: Answer to hostel_facility_in_college_en
+  - text: For information on hostel facility, goto https://www.vgecg.ac.in/hostel.php.
   utter_hostel_facility_in_college_hi:
-  - text: Answer to hostel_facility_in_college_hi
+  - text: Hostel facility ki k=jankari ke liye iss site par jai https://www.vgecg.ac.in/hostel.php.
   utter_hostel_facility_in_college_gu:
-  - text: Answer to hostel_facility_in_college_gu
+  - text: Hostel facility ni mahiti mate aa site par jav https://www.vgecg.ac.in/hostel.php.
   utter_transportation_facility_in_college_en:
-  - text: Answer to transportation_facility_in_college_en
+  - text: For information on transport facility, goto https://www.vgecg.ac.in/transport.php.
   utter_transportation_facility_in_college_hi:
-  - text: Answer to transportation_facility_in_college_hi
+  - text: Transport facility ki jankari ke liye iss site par jai https://www.vgecg.ac.in/transport.php.
   utter_transportation_facility_in_college_gu:
-  - text: Answer to transportation_facility_in_college_gu
+  - text: Transport facility ni mahiti mate aa site par jav https://www.vgecg.ac.in/transport.php.
   utter_mess_facilities_in_college_en:
   - text: Answer to mess_facilities_in_college_en
   utter_mess_facilities_in_college_hi:
@@ -445,17 +445,17 @@ responses:
   utter_mess_facilities_in_college_gu:
   - text: Answer to mess_facilities_in_college_gu
   utter_library_facility_in_college_en:
-  - text: Answer to library_facility_in_college_en
+  - text: For information on librabry, goto https://www.vgecg.ac.in/library.php.
   utter_library_facility_in_college_hi:
-  - text: Answer to library_facility_in_college_hi
+  - text: Library ki jankari ke liye iss site par jai Library ni mahiti mate aa site par jav https://www.vgecg.ac.in/library.php..
   utter_library_facility_in_college_gu:
-  - text: Answer to library_facility_in_college_gu
+  - text: Library ni mahiti mate aa site par jav https://www.vgecg.ac.in/library.php.
   utter_sport_facility_in_college_en:
-  - text: Answer to sport_facility_in_college_en
+  - text: For information on sports facility, goto https://www.vgecg.ac.in/sports.php.
   utter_sport_facility_in_college_hi:
-  - text: Answer to sport_facility_in_college_hi
+  - text: Sports facility ki jankari ke liye iss site par jai https://www.vgecg.ac.in/sports.php.
   utter_sport_facility_in_college_gu:
-  - text: Answer to sport_facility_in_college_gu
+  - text: Sports facility ni mahiti mate aa site par jav https://www.vgecg.ac.in/sports.php.
 actions: []
 forms: {}
 e2e_actions: []
