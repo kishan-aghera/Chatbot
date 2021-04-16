@@ -355,71 +355,71 @@ responses:
   utter_medical_facilities_gu:
   - text: Answer to medical_facilities_gu
   utter_list_of_faculty_in_chemical_department_gu:
-  - text: Answer to list_of_faculty_in_chemical_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=2.
   utter_list_of_faculty_in_chemical_department_hi:
-  - text: Answer to list_of_faculty_in_chemical_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=2.
   utter_list_of_faculty_in_chemical_department_en:
-  - text: Answer to list_of_faculty_in_chemical_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=2.
   utter_list_of_faculty_in_civil_department_gu:
-  - text: Answer to list_of_faculty_in_civil_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=4.
   utter_list_of_faculty_in_civil_department_hi:
-  - text: Answer to list_of_faculty_in_civil_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=4.
   utter_list_of_faculty_in_civil_department_en:
-  - text: Answer to list_of_faculty_in_civil_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=4.
   utter_list_of_faculty_in_computer_department_gu:
-  - text: Answer to list_of_faculty_in_computer_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=3.
   utter_list_of_faculty_in_computer_department_hi:
-  - text: Answer to list_of_faculty_in_computer_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=3.
   utter_list_of_faculty_in_computer_department_en:
-  - text: Answer to list_of_faculty_in_computer_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=3.
   utter_list_of_faculty_in_electrical_department_gu:
-  - text: Answer to list_of_faculty_in_electrical_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=5.
   utter_list_of_faculty_in_electrical_department_hi:
-  - text: Answer to list_of_faculty_in_electrical_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=5.
   utter_list_of_faculty_in_electrical_department_en:
-  - text: Answer to list_of_faculty_in_electrical_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=5.
   utter_list_of_faculty_in_electronics_and_communication_department_gu:
-  - text: Answer to list_of_faculty_in_electronics_and_communication_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=6.
   utter_list_of_faculty_in_electronics_and_communication_department_hi:
-  - text: Answer to list_of_faculty_in_electronics_and_communication_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=6.
   utter_list_of_faculty_in_electronics_and_communication_department_en:
-  - text: Answer to list_of_faculty_in_electronics_and_communication_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=6.
   utter_list_of_faculty_in_information_technology_department_gu:
-  - text: Answer to list_of_faculty_in_information_technology_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=7.
   utter_list_of_faculty_in_information_technology_department_hi:
-  - text: Answer to list_of_faculty_in_information_technology_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=7.
   utter_list_of_faculty_in_information_technology_department_en:
-  - text: Answer to list_of_faculty_in_information_technology_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=7.
   utter_list_of_faculty_in_instrumentation_and_control_department_gu:
-  - text: Answer to list_of_faculty_in_instrumentation_and_control_department_gu
+  - text:  Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=8.
   utter_list_of_faculty_in_instrumentation_and_control_department_hi:
-  - text: Answer to list_of_faculty_in_instrumentation_and_control_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=8.
   utter_list_of_faculty_in_instrumentation_and_control_department_en:
-  - text: Answer to list_of_faculty_in_instrumentation_and_control_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=8.
   utter_list_of_faculty_in_mechanical_engineering_department_gu:
-  - text: Answer to list_of_faculty_in_mechanical_engineering_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=9.
   utter_list_of_faculty_in_mechanical_engineering_department_hi:
-  - text: Answer to list_of_faculty_in_mechanical_engineering_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=9.
   utter_list_of_faculty_in_mechanical_engineering_department_en:
-  - text: Answer to list_of_faculty_in_mechanical_engineering_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=9.
   utter_list_of_faculty_in_power_electronics_department_gu:
-  - text: Answer to list_of_faculty_in_power_electronics_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=10.
   utter_list_of_faculty_in_power_electronics_department_hi:
-  - text: Answer to list_of_faculty_in_power_electronics_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=10.
   utter_list_of_faculty_in_power_electronics_department_en:
-  - text: Answer to list_of_faculty_in_power_electronics_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=10.
   utter_list_of_faculty_in_applied_mechanics_department_gu:
-  - text: Answer to list_of_faculty_in_applied_mechanics_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=12.
   utter_list_of_faculty_in_applied_mechanics_department_hi:
-  - text: Answer to list_of_faculty_in_applied_mechanics_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=12.
   utter_list_of_faculty_in_applied_mechanics_department_en:
-  - text: Answer to list_of_faculty_in_applied_mechanics_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=12.
   utter_list_of_faculty_in_science_and_humanities_department_gu:
-  - text: Answer to list_of_faculty_in_science_and_humanities_department_gu
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=11.
   utter_list_of_faculty_in_science_and_humanities_department_hi:
-  - text: Answer to list_of_faculty_in_science_and_humanities_department_hi
+  - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=11.
   utter_list_of_faculty_in_science_and_humanities_department_en:
-  - text: Answer to list_of_faculty_in_science_and_humanities_department_en
+  - text: For information, goto https://www.vgecg.ac.in/department.php?dept=11.
   utter_list_of_branches_en:
   - text: Answer to list_of_branches_en
   utter_list_of_branches_hi:
