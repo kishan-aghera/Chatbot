@@ -444,3 +444,7 @@ rules:
   steps:
   - intent: list_of_faculty_in_science_and_humanities_department_gu
   - action: utter_list_of_faculty_in_science_and_humanities_department_gu
+- rule: out-of-scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope

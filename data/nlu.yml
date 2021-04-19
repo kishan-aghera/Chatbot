@@ -9,6 +9,27 @@ nlu:
     - How can I correct my name in marksheet?
     - The marksheet contains wrong name of me, what to do?
     - My name in marksheet was written wrong, now what to do?
+    - I want to change my name in marksheet.
+    - I want to change my name in marksheet how to do that?
+    - I want to change my name in marksheet, what is procedure for that?
+    - Can you please tell me how to change my name in marksheet?
+    - can u please tell me how to correct my name in marksheet?
+    - can u plz tell me how to correct my name in marksheet?
+    - I want name correction in marksheet.
+    - I want to correct my name in marksheet.
+    - I want to correct my name in marksheet how to do that?
+    - I want name correction marksheet, what is procedure of that?
+    - can you please tell me procedure of name correction in marksheet?
+    - can u tell me procedure of name correction in marksheet?
+    - can u plz tell me procedure of name correction in marksheet?
+    - How can I change my name in marksheet?
+    - My name is wrong in markshhet how to change that?
+    - My name is wrong in marksheet how can I chnage that?
+    - My name is written wrong in marksheet now what should I do?
+    - What is procedure of name correction in marksheet?
+    - What is the procedure to change my name in marksheet?
+    - Tell me the procedure of name correction in marksheet.
+    - Tell me the procedure of name change in marksheet.
 - intent: paid_fees_in_wrong_category_en
   examples: |
     - I have paid fees in the wrong category. What to do?
@@ -84,6 +105,8 @@ nlu:
     - How to get scholarship?
     - I want a scholarship, how to get it?
     - How can I get my scholarship?
+    - I want details regarding different scholarships available, from where can I get information?
+    - I want details regarding different scholarships available, from where can I get information regarding scholarships?
 - intent: get_scholarship_gu
   examples: |
     - Scholarship kai rite male?
@@ -174,6 +197,31 @@ nlu:
     - Marksheet me mere name ki spelling wrong hai to use thik kese karva ki process kya hai?
     - Agar name ki spelling marksheet me galat hai to use kese thik karaya ja sakta hai?
     - mera name galat likha he marksheet me, to ab me kya kar sakta hu?
+    - Mujhe marksheet me name change karvana he to kese kar sakta hu?
+    - meri marksheet me name change karna he, to kese kar sakte he?
+    - Muze name change karvana hai marksheet me to kese kar sakte hai?
+    - Muze name change karvana hain marksheet me to kaise kar sakte hai?
+    - Muze mera name sahi karavna hai marksheet me to kese kar sakte hai?
+    - muze mera name sahi karvana hain marksheet me to kya process hai?
+    - muze name change karvana hai markshhet me to kya procedure hain?
+    - Muze name change karvana hain marksheet me to kya procedure karni padegi?
+    - Name change karvane ki process kya hai?
+    - Name ka spelling galat hai marksheet me to kese thik karva sakte hai?
+    - name ka spelling galat hai marksheet me to kese change karva sakte hain?
+    - name ki spelling galat hai marksheet me to kese correct karva sakte hain?
+    - name ki spelling galat hain marksheet me to kese sahi karva sakte hai?
+    - Name change karvane ki process batao.
+    - name correct karvane ki procedure batao.
+    - name kese sahi karva sakte hain marksheet me?
+    - Kya aap muje bata sakte hai name ki spelling galat ho marksheet me to kese change karva sakte hai?
+    - kya ap muze name change karvane ki process k bare me bata sakte hai?
+    - kya aap muze name correction ki process k bare me bata sakte hai?
+    - kya ap muje name correction mi procedure k bare me bata sakte hai?
+    - kya me name correction ki process k bare me jan sakta hun?
+    - Muje marksheet me name change karvana hai to uski process k bare me jan sakta hu?
+    - muje marksheet me name correct karvana hai to uski process k bare me jan sakta hu?
+    - Muje marksheet me name change karvana hai to uski process k bare me jan sakti hu?
+    - muje marksheet me name correct karvana hai to uski process k bare me jan sakti hu?
 - intent: name_correction_marksheet_gu
   examples: |
     - Mara name no spelling khoto che marksheet ma to ene sudharvani process su che?
@@ -193,6 +241,15 @@ nlu:
     - Mare marksheet ma naam change karavu chhe, to su karvu padse?
     - Mare mari marksheet ma naam badalvanu chhe to su karvu padse?
     - Mare marksheet ma maru naam badalvanu chhe, to su karvanu?
+    - mare name change karavu che marksheet ma to kai rite karavi sakay?
+    - mare name correct karavu che marksheet ma to kai rite karavi sakay?
+    - name change karavu hoy marksheet ma to su process karvi padse?
+    - name change karavu marksheet ma to su procedure karvi padse?
+    - Mane marksheet ma name badlava mate ni jankari aapo.
+    - Mane marksheet ma name change mate ni jankari aapo.
+    - Mane marksheet ma name correct karava mate ni jankari aapo.
+    - Tame mane marksheet ma name change karava mate ni mahiti aapi sakso?
+    - tame mane marksheet ma name badlava mate ni mahiti aapi sakso?
 - intent: paid_fees_in_wrong_category_hi
   examples: |
     - Mere se fees galat category me pay ho gai hai to ab me kya karu?
@@ -323,6 +380,8 @@ nlu:
     - hu detain thai chu to pachu resume karvu che toh eni procedure shu che?
     - mare gai kale detention pati gyu 6e to have mare su karvanu?
     - maru detention pati gyu 6e to have hu su karu?
+    - Mare detain puru thai gaya pachi ni process jaanvi 6e
+    - Mare detain puru thai gaya pachi ni process jaanvi 6e, su chhe aa process?
 - intent: greeting_hello_en
   examples: |
     - Hii
@@ -415,6 +474,9 @@ nlu:
     - principal's name of this college campus
     - Principal's name of this vgec campus chandkheda
     - vgec campus principal's name
+    - What is the name of principal of VGEC?
+    - Who is principal of Vishwakarma Government Engineering College?
+    - Who is principal of VGEC?
 - intent: name_of_principal_hi
   examples: |
     - Principal ka name kya hai?
@@ -542,6 +604,7 @@ nlu:
     - Mujhe vgec me kitne branches he uski jaankari chaie.
     - Mujhe vgec me kitni branches he uskki jaankari chaie
     - Mujhe vgec me kitni branches he uski jaankari chaie.
+    - vgec me kitni branches he?
 - intent: total_branches_gu
   examples: |
     - Aa college ma ketli branches che kool?
@@ -1684,6 +1747,8 @@ nlu:
     - Vidharthiyo mate college ma transportation ni koi suvidha uplabdh che?
     - vidharthiyo mate college ma transportation ni koi suvidha uplabdh 6?
     - Students mate college ma transportation ni koi suvidha 6 khari?
+    - vgec ma kai transportation facility chhe?
+    - VGEC ma transportation facility chhe?
 - intent: mess_facilities_in_college_en
   examples: |
     - Is there any mess facility available?
@@ -1900,3 +1965,17 @@ nlu:
     - Vidharthiyo mate college ma sport ni koi suvidha uplabdh che?
     - vidharthiyo mate college ma ramatgamat ni koi suvidha uplabdh 6?
     - Students mate college ma sport ni koi suvidha 6 khari?
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - Who owns VGEC?
+    - How many students are there in vgec?
+    - How to contact principal?
+    - How to contact HOD of computer?
+    - Who is CEO of Google?
+    - What is 5+2?
+    - What is 5 + 2?
+    - Who created Google?
+    - what is 9+5

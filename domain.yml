@@ -231,6 +231,8 @@ intents:
     use_entities: true
 - transportation_facility_in_college_gu:
     use_entities: true
+- out_of_scope:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -391,7 +393,7 @@ responses:
   utter_list_of_faculty_in_information_technology_department_en:
   - text: For information, goto https://www.vgecg.ac.in/department.php?dept=7.
   utter_list_of_faculty_in_instrumentation_and_control_department_gu:
-  - text:  Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=8.
+  - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=8.
   utter_list_of_faculty_in_instrumentation_and_control_department_hi:
   - text: Jankari ke liye iss site par jai https://www.vgecg.ac.in/department.php?dept=8.
   utter_list_of_faculty_in_instrumentation_and_control_department_en:
@@ -456,6 +458,8 @@ responses:
   - text: Sports facility ki jankari ke liye iss site par jai https://www.vgecg.ac.in/sports.php.
   utter_sport_facility_in_college_gu:
   - text: Sports facility ni mahiti mate aa site par jav https://www.vgecg.ac.in/sports.php.
+  utter_out_of_scope:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
 actions: []
 forms: {}
 e2e_actions: []
