@@ -7,10 +7,17 @@
 
 ## How to run this chatbot in command prompt?
 
-* Use ```rasa shell``` to interact with chatbot in command prompt.
+* First, run ```rasa train``` command to train the bot using the dataset provided in the repository.
+* Then, use ```rasa shell``` to interact with chatbot in command prompt.
 * Use ```rasa shell nlu``` to inspect the intent classified by the bot.
 
 ## How to run this chatbot with rasa-x?
 
 * Run ```rasa run actions``` in one terminal. Do not close this tab.
 * Now, run ```rasa x``` in another terminal. This will open a tab in the browser.
+
+## How to test the chatbot?
+
+* Run ```rasa test nlu --cross-validation``` to test the chatbot which uses nlu data to test.
+* Run ```rasa test``` to test the chatbot with the test stories already provided in the ```tests/test_stories.yml``` file.
+* After testing, you can find the results in the ```results``` directory.
