@@ -243,21 +243,21 @@ responses:
   utter_bonafide_apply_en:
   - text: To apply for bonafide certificate, login through sts portal and apply with the required documents. Please check the provided link. https://www.vgecg.ac.in/sts_login.php
   utter_detention_after_process_en:
-  - text: Answer to process after detention in English.
+  - text: Contact your branch student co-ordinator.
   utter_entered_incorrect_information_while_paying_fees_en:
-  - text: Answer to entered incorrect information while paying fees in English.
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents.
   utter_get_duplicate_marksheet_process_en:
   - text: To get duplicate marksheet, submit the form with required documents on this site. https://www.gtu.ac.in/StuMarksheet.aspx
   utter_name_correction_marksheet_en:
-  - text: Answer to name correction in marksheet in English.
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents.
   utter_paid_fees_in_wrong_category_en:
-  - text: Answer to paid fees in wrong category in English.
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents..
   utter_paid_less_fees_than_mentioned_en:
-  - text: Answer to paid less fees than mentioned in English.
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents..
   utter_pay_fee_online_process_en:
-  - text: Answer to process for paying fees online in English.
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents.
   utter_refund_fees_en:
-  - text: Answer to refund fees in English.
+  - text: Please go to the given link https://www.vgecg.ac.in/student_section.php, then fill the required form with asked documents.
   utter_get_scholarship_hi:
   - text: Scholarship ke liye di gayi link par click kare jo aapko student section par le jayegi. Please check the provided link. http://vgecg.ac.in/student_section.php.
   utter_get_scholarship_gu:
@@ -271,37 +271,37 @@ responses:
   utter_bonafide_apply_gu:
   - text: Bonafide  certificate mate, sts portal thi login karo ane mangela documents online submit karo. Please check the provided link. https://www.vgecg.ac.in/sts_login.php
   utter_detention_after_process_hi:
-  - text: Answer to process after detention in Hindi.
+  - text: Apne branch ke student co-ordinator se contact kare.
   utter_detention_after_process_gu:
-  - text: Answer to process after detention in Gujarati.
+  - text: Aapna branch na student co-ordinator ne contact karo.
   utter_entered_incorrect_information_while_paying_fees_hi:
-  - text: Answer to entered incorrect information while paying fees in Hindi.
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
   utter_entered_incorrect_information_while_paying_fees_gu:
-  - text: Answer to entered incorrect information while paying fees in Gujarati.
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
   utter_get_duplicate_marksheet_process_hi:
   - text: Duplicate marksheet le liye, iss website par mange hue documents ke sath form bhare. https://www.gtu.ac.in/StuMarksheet.aspx
   utter_get_duplicate_marksheet_process_gu:
   - text: Duplicate marksheet na mate, aa website par mangela documents sathe form submit karo. https://www.gtu.ac.in/StuMarksheet.aspx
   utter_name_correction_marksheet_hi:
-  - text: Answer to name correction in marksheet in Hindi.
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
   utter_name_correction_marksheet_gu:
-  - text: Answer to name correction in marksheet in Gujarati.
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
   utter_paid_fees_in_wrong_category_hi:
-  - text: Answer to paid fees in wrong category in Hindi.
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
   utter_paid_fees_in_wrong_category_gu:
-  - text: Answer to paid fees in wrong category in Gujarati.
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
   utter_paid_less_fees_than_mentioned_hi:
-  - text: Answer to paid less fees than mentioned in Hindi.
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
   utter_paid_less_fees_than_mentioned_gu:
-  - text: Answer to paid less fees than mentioned in Gujarati.
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
   utter_pay_fee_online_process_hi:
-  - text: Answer to process for paying fees online in Hindi.
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
   utter_pay_fee_online_process_gu:
-  - text: Answer to process for paying fees online in Gujarati.
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
   utter_refund_fees_hi:
-  - text: Answer to refund fees in Hindi.
+  - text: Di gai link par jaye https://www.vgecg.ac.in/student_section.php, fir mange hue documents ke sath form apply kare.
   utter_refund_fees_gu:
-  - text: Answer to refund fees in Gujarati.
+  - text: Aapeli link par javu https://www.vgecg.ac.in/student_section.php, pachi mangela documents sathe form apply karvo.
   utter_greeting_hello_en:
   - text: Hello, How may I help you?
   utter_greeting_hello_hi:
@@ -351,11 +351,11 @@ responses:
   utter_faculty_contact_for_scholarship_information_en:
   - text: Please follow the given link to get directed to the student section. Please check the provided link. http://vgecg.ac.in/student_section.php.
   utter_medical_facilities_en:
-  - text: Answer to medical_facilities_en
+  - text: Follow the given link for more information https://www.vgecg.ac.in/medical.php.
   utter_medical_facilities_hi:
-  - text: Answer to medical_facilities_hi
+  - text: Mahiti ke liye di gai link par jai https://www.vgecg.ac.in/medical.php.
   utter_medical_facilities_gu:
-  - text: Answer to medical_facilities_gu
+  - text: Mahiti mate aapeli link par javu https://www.vgecg.ac.in/medical.php.
   utter_list_of_faculty_in_chemical_department_gu:
   - text: Mahiti mate aa site par jav https://www.vgecg.ac.in/department.php?dept=2.
   utter_list_of_faculty_in_chemical_department_hi:
@@ -423,11 +423,11 @@ responses:
   utter_list_of_faculty_in_science_and_humanities_department_en:
   - text: For information, goto https://www.vgecg.ac.in/department.php?dept=11.
   utter_list_of_branches_en:
-  - text: Answer to list_of_branches_en
+  - text: Computer Engineering, Chemical Engineering, Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics and Communication, Information Technology, Instrumentation and Control, Power Electronics, Applied Mechanics, Science and Humanities.
   utter_list_of_branches_hi:
-  - text: Answer to list_of_branches_hi
+  - text: Computer Engineering, Chemical Engineering, Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics and Communication, Information Technology, Instrumentation and Control, Power Electronics, Applied Mechanics, Science and Humanities.
   utter_list_of_branches_gu:
-  - text: Answer to list_of_branches_gu
+  - text: Computer Engineering, Chemical Engineering, Civil Engineering, Electrical Engineering, Mechanical Engineering, Electronics and Communication, Information Technology, Instrumentation and Control, Power Electronics, Applied Mechanics, Science and Humanities.
   utter_hostel_facility_in_college_en:
   - text: For information on hostel facility, goto https://www.vgecg.ac.in/hostel.php.
   utter_hostel_facility_in_college_hi:
@@ -441,11 +441,11 @@ responses:
   utter_transportation_facility_in_college_gu:
   - text: Transport facility ni mahiti mate aa site par jav https://www.vgecg.ac.in/transport.php.
   utter_mess_facilities_in_college_en:
-  - text: Answer to mess_facilities_in_college_en
+  - text: Go to Hostel reception for more information.
   utter_mess_facilities_in_college_hi:
-  - text: Answer to mess_facilities_in_college_hi
+  - text: Jankari ke liye Hostel ke reception par jai.
   utter_mess_facilities_in_college_gu:
-  - text: Answer to mess_facilities_in_college_gu
+  - text: Mahiti mate Hostel na reception par javu.
   utter_library_facility_in_college_en:
   - text: For information on librabry, goto https://www.vgecg.ac.in/library.php.
   utter_library_facility_in_college_hi:
