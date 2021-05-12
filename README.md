@@ -24,6 +24,6 @@
 
 ## How to enable voice feature of the chatbot?
 
-* Copy the voice_bot_gtts.py into the actions folder.
+* Copy the ```voice_bot_gtts.py``` inside the ```actions``` folder.
 * The instructions to activate this feature are already written inside this python file.
-* Note: This feature currently only works through command line and also requires active internet connection for the gTTS library.
+* Note: This feature currently only works through command line and also requires active internet connection for the ```gTTS``` library.
